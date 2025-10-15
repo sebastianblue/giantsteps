@@ -11,7 +11,7 @@ Include Basic Screen Effects by Emily Short.
 Asking for help is an action out of world applying to nothing.
 Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
 Carry out asking for help:
-	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings; • LEAVE or GO WEST — head out (only after you have somewhere to go)".
+	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY (INSTRUMENT)[line break]• NEXT / PREVIOUS (PAGE)— flip pages[line break]• DIAL (PHONE NUMBER) (from the wall phone)[line break]• ANSWER PHONE when it rings[line break]• N/W/E/S — go in a direction (only if you have somewhere to go)".
 
 [ Let READ be a synonym for EXAMINE ]
 Understand "read [something]" as examining.
@@ -30,26 +30,6 @@ To decide what text is normalized (T - text):
 
 Release along with a website.
 Release along with an interpreter.
-
-[ HELP ]
-Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
-Carry out asking for help:
-	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings;[line break]• LEAVE or GO WEST — head out (only after you have somewhere to go)".
-
-[ Let READ be a synonym for EXAMINE ]
-Understand "read [something]" as examining.
-
-[ Kept flags/utilities you already use elsewhere ]
-Subway-intro-fired is a truth state that varies. Subway-intro-fired is false.
-
-To decide what text is normalized (T - text):
-	let U be T;
-	replace the text " " in U with "";
-	replace the text "-" in U with "";
-	replace the text "(" in U with "";
-	replace the text ")" in U with "";
-	replace the text "." in U with "";
-	decide on U.
 
 [ ==================== PROLOGUE: press-any-key version ==================== ]
 
@@ -76,7 +56,13 @@ To play the press-any-key prologue:
 
 When play begins:
 	now Prologue pages is {
-		"[italic type]Deep breath.[paragraph break][bracket]Press any key.[close bracket]",
+		"[italic type]For the first time since you stepped onstage, you notice how hard your heart is beating.[paragraph break][bracket]Press any key.[close bracket]",
+		"[italic type][paragraph break]Nervous.",
+		"[italic type][paragraph break]Fuck.",
+		"[italic type][bold type][paragraph break]Fuck.[roman type]",
+		"[italic type][paragraph break]What did Dr. Levy say to do?",
+		"[italic type][paragraph break]...",
+		"[italic type]Deep breath.",
 		"[italic type][paragraph break]In.",
 		"[italic type][paragraph break]Out.",
 		"[italic type][paragraph break]...",
@@ -84,12 +70,13 @@ When play begins:
 		"[italic type][paragraph break]In...",
 		"[italic type][paragraph break]and",
 		"[italic type][paragraph break]Out.",
-		"[italic type][paragraph break]A huge sound of applause, and then, as soon as you recognize it,",
+		"[italic type][paragraph break]A huge round of applause, and then, as soon as you recognize it,",
 		"[italic type][paragraph break]silence.",
 		"[italic type][line break]Waiting.",
 		"[italic type][line break]Expecting.",
+		"[italic type][line break]Heartbeat.",
 		"[italic type][bold type][line break]Downbeat!",
-		"[italic type][bold type][paragraph break]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
+		"[italic type][bold type][paragraph break]________________[line break]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
 		"[italic type][paragraph break]It's been almost four months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?[paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Come have a residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'",
 		"[italic type][paragraph break]Stupid. That's stupid. And I'm talking to myself again.",
 		"[paragraph break]It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.[paragraph break][roman type]You put a record on your tiny Audio Technica turntable in the corner of your place. Jazz floods the room."

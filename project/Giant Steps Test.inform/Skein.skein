@@ -5,20 +5,20 @@
     <item nodeId="node-1002">
         <command xml:space="preserve">Giant Steps Test</command>
         <result xml:space="preserve">
-Giant Steps: Chapter 1: Autumn in New York
-An Interactive Fiction by You
-Release 1 / Serial number 251015 / Inform 7 v10.1.2 / D
 
-Studio
-You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. 
+________________
+Giant Steps
 
-Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+chapter 1: Autumn in New York
 
-&gt;</result>
+a prototype of a game by sebastian blue
+
+type "help" for help.</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1138"></child>
             <child nodeId="node-1423"></child>
             <child nodeId="node-1329"></child>
+            <child nodeId="node-1461"></child>
             <child nodeId="node-1158"></child>
             <child nodeId="node-1394"></child>
             <child nodeId="node-1404"></child>
@@ -91,7 +91,144 @@ Posters hang on the walls. Your friend's LP is playing on an old turntable in th
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1309"></child>
+            <child nodeId="node-1469"></child>
         </children>
+    </item>
+    <item nodeId="node-1469">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1470"></child>
+        </children>
+    </item>
+    <item nodeId="node-1470">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1471"></child>
+        </children>
+    </item>
+    <item nodeId="node-1471">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1472"></child>
+        </children>
+    </item>
+    <item nodeId="node-1472">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1473"></child>
+        </children>
+    </item>
+    <item nodeId="node-1473">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1474"></child>
+        </children>
+    </item>
+    <item nodeId="node-1474">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1475"></child>
+        </children>
+    </item>
+    <item nodeId="node-1475">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1476"></child>
+        </children>
+    </item>
+    <item nodeId="node-1476">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1477"></child>
+        </children>
+    </item>
+    <item nodeId="node-1477">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1478"></child>
+        </children>
+    </item>
+    <item nodeId="node-1478">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. You can hear the faint hiss of street traffic behind her words. "Tall's. Late jam. You're coming." There's a pause filled with the sound of a lighter flicking, then an exhale.
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1479"></child>
+        </children>
+    </item>
+    <item nodeId="node-1479">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Good. Exhausted reads honest." A bus sighs past on her end. "One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math." She pauses. "And before you ask - no, I'm not getting anything out of this except maybe seeing you not completely waste whatever talent you haven't drunk away yet."
+
+
+1) "One tune gets me what, exactly?"
+2) "Not interested."
+3) "Walking into a jam cold sounds like a bad idea."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1480"></child>
+        </children>
+    </item>
+    <item nodeId="node-1480">
+        <command xml:space="preserve">3</command>
+        <result xml:space="preserve">"It's a session, not a dissertation defense. "Confirmation" if you want respect, "Autumn Leaves" if you want to actually play. Play the head, don't rush, like you do sometimes. The form will do the work." A short laugh. "Or play "Epistrophe" and watch everyone hate you. Your choice." She already assumes you're showing."Marcus will be there. He books the Tuesday residency at Zinc." Another beat. "You know what a residency pays? It pays your ConEd bill, that's what."
+
+
+1) "What if I choke?"
+2) "What time?"
+3) "Who else is playing?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1481"></child>
+        </children>
+    </item>
+    <item nodeId="node-1481">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1309">
         <command xml:space="preserve"></command>
@@ -2632,6 +2769,21 @@ Posters hang on the walls. Your friend's LP is playing on an old turntable in th
     <item nodeId="node-1158">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">[type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1461">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">How to play (quick)
+
+Try short, simple commands.
+• LOOK (or L) - refresh the room view
+• EXAMINE (or X) things - e.g., X MAGAZINE, X PAGES
+• OPEN/CLOSE/TAKE/READ
+• PLAY SAXOPHONE / PLAY GUITAR
+• NEXT / PREVIOUS - flip the magazine
+• DIAL 555-0199 (from the wall phone)
+• ANSWER PHONE when it rings; • LEAVE or GO WEST - head out (only after you have somewhere to go)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
