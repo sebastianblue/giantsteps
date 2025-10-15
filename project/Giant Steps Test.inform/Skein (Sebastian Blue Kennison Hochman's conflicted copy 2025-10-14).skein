@@ -16,22 +16,21 @@ a prototype of a game by sebastian blue
 
 type "help" for help.
 
-[type next.]
+[Press Enter or type NEXT.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1138"></child>
-            <child nodeId="node-1158"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
     <item nodeId="node-1003">
         <command xml:space="preserve">next</command>
-        <result xml:space="preserve">It's been almost two months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?
+        <result xml:space="preserve">It's been almost two months since I graduated. God, what did I think was going to happen when I moved to New York?
 
-"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!"
+"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!".
 
-[type next.]
+[Type NEXT.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1004"></child>
@@ -41,7 +40,7 @@ type "help" for help.
         <command xml:space="preserve">next</command>
         <result xml:space="preserve">Stupid. That's stupid. And I'm talking to myself again.
 
-[type next.]
+[Type NEXT.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1005"></child>
@@ -51,9 +50,7 @@ type "help" for help.
         <command xml:space="preserve">next</command>
         <result xml:space="preserve">It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.
 
-You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
-
-[type next.]
+[Type NEXT.]
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1006"></child>
@@ -62,18 +59,14 @@ You put a record on your tiny AT turntable in the corner of your place. Jazz flo
     <item nodeId="node-1006">
         <command xml:space="preserve">next</command>
         <result xml:space="preserve">Studio
-You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
 
-You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
-
-Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1117"></child>
-            <child nodeId="node-1187"></child>
             <child nodeId="node-1093"></child>
-            <child nodeId="node-1195"></child>
             <child nodeId="node-1053"></child>
             <child nodeId="node-1036"></child>
             <child nodeId="node-1023"></child>
@@ -138,157 +131,12 @@ Posters hang on the walls. Your friend's LP is playing on an old turntable in th
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
-            <child nodeId="node-1215"></child>
-        </children>
-    </item>
-    <item nodeId="node-1215">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1216"></child>
-        </children>
-    </item>
-    <item nodeId="node-1216">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1217"></child>
-        </children>
-    </item>
-    <item nodeId="node-1217">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1218"></child>
-        </children>
-    </item>
-    <item nodeId="node-1218">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1219"></child>
-        </children>
-    </item>
-    <item nodeId="node-1219">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1220"></child>
-        </children>
-    </item>
-    <item nodeId="node-1220">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1221"></child>
-        </children>
-    </item>
-    <item nodeId="node-1221">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1222"></child>
-        </children>
-    </item>
-    <item nodeId="node-1222">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
 *BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1223"></child>
+        <children><child nodeId="node-1014"></child>
         </children>
-    </item>
-    <item nodeId="node-1223">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1224"></child>
-        </children>
-    </item>
-    <item nodeId="node-1224">
-        <command xml:space="preserve">answer</command>
-        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
-
-
-1) "Am I? Tell me why."
-2) "Tonight? I'm destroyed."
-3) "Rena who?"
-
-
-[Type 1, 2, or 3. HANG UP to end the call.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1225"></child>
-        </children>
-    </item>
-    <item nodeId="node-1225">
-        <command xml:space="preserve">2</command>
-        <result xml:space="preserve">"Good. Exhausted reads honest." A lighter flicks on her end. "One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math."
-
-
-1) "One tune gets me what, exactly?"
-2) "Not interested."
-3) "Walking into a jam cold sounds like a bad idea."
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1226"></child>
-        </children>
-    </item>
-    <item nodeId="node-1226">
-        <command xml:space="preserve">1</command>
-        <result xml:space="preserve">"Because you don't sound like you're quoting anyone yet. That window closes." Traffic noise, a siren. "Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently." Beat. "Ludlow. Red door. Downstairs."
-
-
-You start to ask which block on Ludlow, is there a sign, what time exactly-click. Line goes dead. She figured you'd either know or figure it out.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1227"></child>
-        </children>
-    </item>
-    <item nodeId="node-1227">
-        <command xml:space="preserve">l</command>
-        <result xml:space="preserve">Studio (on the phone nook)
-You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
-
-You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
-
-Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1228"></child>
-        </children>
-    </item>
-    <item nodeId="node-1228">
-        <command xml:space="preserve">leave phone nook</command>
-        <result xml:space="preserve">I only understood you as far as wanting to leave.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1014">
         <command xml:space="preserve"></command>
@@ -1246,114 +1094,6 @@ Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1195">
-        <command xml:space="preserve">look magazine</command>
-        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. [try looking at the page]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1196"></child>
-        </children>
-    </item>
-    <item nodeId="node-1196">
-        <command xml:space="preserve">look at page</command>
-        <result xml:space="preserve">You see nothing special about the pages close-up.
-
-PAGE 1 - Downtown Report
-
-The scene fractured somewhere between Coltrane's sheets of sound and laptop glitch-now it's splintered into a dozen micro-movements, each with manifestos nobody reads and shows nobody promotes. Tonic's booking experimental Mondays. The Knitting Factory moved. Nobody cares.
-
-What matters: Tall's basement sessions where the piano's out of tune and the drummer studied in Berlin. Bring changes in three flats or go home.
-
-Take the F train to Delancey Street. Exit, walk south on Essex, turn right on Delancey, left on Ludlow. Listen for it.
-
-[Payphone classifieds page 6. Next Page?]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1197"></child>
-        </children>
-    </item>
-    <item nodeId="node-1197">
-        <command xml:space="preserve">look at current page</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1198"></child>
-        </children>
-    </item>
-    <item nodeId="node-1198">
-        <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">That was a rhetorical question.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1199"></child>
-        </children>
-    </item>
-    <item nodeId="node-1199">
-        <command xml:space="preserve">next page</command>
-        <result xml:space="preserve">PAGE 2 - On Technique &amp; Silence
-
-Monk said the piano ain't got no wrong notes. He was half-right. The wrong note is the one you don't commit to.
-
-Downtown's full of conservatory kids playing Bergonzi patterns over "Stella" like they're decoding the Rosetta Stone. Meanwhile the guy who dropped out sophomore year is making the room breathe because he learned space before speed.
-
-The late set isn't about your Transcriptions folder. It's about making eye contact with the bassist during the bridge and meaning it.
-
-Ornette said learn the changes, then forget them. He was completely right. [Next Page?]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1200"></child>
-        </children>
-    </item>
-    <item nodeId="node-1200">
-        <command xml:space="preserve">yes</command>
-        <result xml:space="preserve">That was a rhetorical question.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1201"></child>
-        </children>
-    </item>
-    <item nodeId="node-1201">
-        <command xml:space="preserve">y</command>
-        <result xml:space="preserve">That was a rhetorical question.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1202"></child>
-        </children>
-    </item>
-    <item nodeId="node-1202">
-        <command xml:space="preserve">next</command>
-        <result xml:space="preserve">PAGE 3 - Listening Notes
-• Willisau Concert 1973 (import, good luck finding it) - Cecil Taylor, 47 minutes, no breaths. Sounds like architecture collapsing inward. Essential.
-• Pier 34 Tape (circulating CD-R) - Two basses, prepared guitar, traffic from FDR Drive. Recorded 2 a.m. July, sounds like humidity.
-• The Köln Concert - Everyone owns it, nobody admits they cry during Part IIc.
-
-If your speakers can't reproduce a piano's lower register, you're listening to outlines. Borrow actual monitors or wait.[Next Page?]
-*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1203"></child>
-        </children>
-    </item>
-    <item nodeId="node-1203">
-        <command xml:space="preserve">answer phone</command>
-        <result xml:space="preserve">"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
-
-
-1) "What's up? Sell me."
-2) "Tonight? I'm wrecked."
-3) "Rena who?"
-
-
-[Type 1, 2, or 3. HANG UP to end the call.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
     <item nodeId="node-1093">
         <command xml:space="preserve">look a the bills</command>
         <result xml:space="preserve">Envelopes with complicated feelings about you. One looks friendly. The rest do not.
@@ -1537,54 +1277,6 @@ You open your mouth for directions. Too late. She's gone.
         <result xml:space="preserve">The exit. On it: a battered subway map and more tape residue.
 
 &gt; </result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1187">
-        <command xml:space="preserve">l magazine</command>
-        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1188"></child>
-        </children>
-    </item>
-    <item nodeId="node-1188">
-        <command xml:space="preserve">look</command>
-        <result xml:space="preserve">Studio
-You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
-
-You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
-
-Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1189"></child>
-        </children>
-    </item>
-    <item nodeId="node-1189">
-        <command xml:space="preserve">look magazine</command>
-        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1190"></child>
-        </children>
-    </item>
-    <item nodeId="node-1190">
-        <command xml:space="preserve">look at the page</command>
-        <result xml:space="preserve">You see nothing special about the pages close-up.
-
-PAGE 1 - Downtown Report
-
-The scene fractured somewhere between Coltrane's sheets of sound and laptop glitch-now it's splintered into a dozen micro-movements, each with manifestos nobody reads and shows nobody promotes. Tonic's booking experimental Mondays. The Knitting Factory moved. Nobody cares.
-
-What matters: Ludlow basement sessions where the piano's out of tune and the drummer studied in Berlin. Bring changes in three flats or go home.
-
-Take the F train to Delancey Street. Exit, walk south on Essex, turn right on Delancey, left on Ludlow. Listen for it.
-
-[Payphone classifieds page 6. Actually dial the numbers-email is for squares.]
-&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1117">
@@ -1810,12 +1502,6 @@ You draw breath to ask where it is-click. Dead line. No address.
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1158">
-        <command xml:space="preserve">l</command>
-        <result xml:space="preserve">[type next.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
     <item nodeId="node-1138">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
@@ -1823,92 +1509,7 @@ You draw breath to ask where it is-click. Dead line. No address.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1139"></child>
-            <child nodeId="node-1149"></child>
         </children>
-    </item>
-    <item nodeId="node-1149">
-        <command xml:space="preserve">nexytt</command>
-        <result xml:space="preserve">[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1150"></child>
-        </children>
-    </item>
-    <item nodeId="node-1150">
-        <command xml:space="preserve">nrxt</command>
-        <result xml:space="preserve">[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1151"></child>
-        </children>
-    </item>
-    <item nodeId="node-1151">
-        <command xml:space="preserve">nezt</command>
-        <result xml:space="preserve">[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1152"></child>
-        </children>
-    </item>
-    <item nodeId="node-1152">
-        <command xml:space="preserve">next</command>
-        <result xml:space="preserve">It's been almost two months since I graduated. God, what did I think was going to happen when I moved to New York?
-
-"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!"
-
-[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1153"></child>
-        </children>
-    </item>
-    <item nodeId="node-1153">
-        <command xml:space="preserve">next</command>
-        <result xml:space="preserve">Stupid. That's stupid. And I'm talking to myself again.
-
-[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1154"></child>
-        </children>
-    </item>
-    <item nodeId="node-1154">
-        <command xml:space="preserve">next</command>
-        <result xml:space="preserve">It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.
-
-[Press Enter or type NEXT.]
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1155"></child>
-        </children>
-    </item>
-    <item nodeId="node-1155">
-        <command xml:space="preserve">next</command>
-        <result xml:space="preserve">Studio
-You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
-
-You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1156"></child>
-        </children>
-    </item>
-    <item nodeId="node-1156">
-        <command xml:space="preserve">look couch</command>
-        <result xml:space="preserve">It's certainly seen better days, but still the best place to crash between gigs. Don't try to look between the cushions.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1157"></child>
-        </children>
-    </item>
-    <item nodeId="node-1157">
-        <command xml:space="preserve">look cushions</command>
-        <result xml:space="preserve">Dude. I told you not to look between the cushions. There's nothing here. Surprise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1139">
         <command xml:space="preserve"></command>

@@ -3,7 +3,7 @@
 [==================== BASICS & UI ====================]
 
 Release along with a website.
-Release along with an interpreter. 
+Release along with an interpreter.
 
 [ HELP ]
 Asking for help is an action out of world applying to nothing.
@@ -14,11 +14,9 @@ Carry out asking for help:
 [ Let READ be a synonym for EXAMINE ]
 Understand "read [something]" as examining.
 
-[ PROLOGUE: multi-card intro ]
-Prologue-on is a truth state that varies. Prologue-on is true.
-Prologue pages is a list of text that varies.
-Prologue index is a number that varies.
+[ Kept flags/utilities you already use elsewhere ]
 Subway-intro-fired is a truth state that varies. Subway-intro-fired is false.
+
 To decide what text is normalized (T - text):
 	let U be T;
 	replace the text " " in U with "";
@@ -27,117 +25,302 @@ To decide what text is normalized (T - text):
 	replace the text ")" in U with "";
 	replace the text "." in U with "";
 	decide on U.
-Rule for printing the banner text when Prologue-on is true: rule succeeds.  [suppress until we're done]
-Before looking when Prologue-on is true: stop the action.
+
+Release along with a website.
+Release along with an interpreter.
+
+[ HELP ]
+Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
+Carry out asking for help:
+	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings; during calls, type 1/2/3 or HANG UP[line break]• LEAVE or GO WEST — head out (only after you have somewhere to go)".
+
+[ Let READ be a synonym for EXAMINE ]
+Understand "read [something]" as examining.
+
+[ Kept flags/utilities you already use elsewhere ]
+Subway-intro-fired is a truth state that varies. Subway-intro-fired is false.
+
+To decide what text is normalized (T - text):
+	let U be T;
+	replace the text " " in U with "";
+	replace the text "-" in U with "";
+	replace the text "(" in U with "";
+	replace the text ")" in U with "";
+	replace the text "." in U with "";
+	decide on U.
+
+[ ==================== PROLOGUE: multi-card intro ==================== ]
+
+Prologue-on is a truth state that varies. Prologue-on is true.
+Prologue pages is a list of text that varies.
+Prologue index is a number that varies.
+
+[ Hide the standard banner while the prologue is active ]
+Rule for printing the banner text when Prologue-on is true:
+	rule succeeds.
+
+[ Suppress the auto LOOK at game start while we're on the title cards ]
+Before looking when Prologue-on is true:
+	stop the action.
+
+[ One helper to advance or finish the prologue ]
+To advance the prologue:
+	increment Prologue index;
+	if Prologue index <= the number of entries in Prologue pages:
+		say entry Prologue index of Prologue pages;
+		say "[paragraph break][bracket]type next.[close bracket]";
+	otherwise:
+		now Prologue-on is false;
+		carry out the printing the banner text activity;
+		try looking.
 
 When play begins:
 	now Prologue pages is {
 		"[italic type][bold type]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
-		"[italic type]It's been almost two months since I graduated. God, what did I think was going to happen when I moved to New York?[roman type][paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'.",
+		"[italic type]It's been almost two months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?[paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'",
 		"[italic type]Stupid. That's stupid. And I'm talking to myself again.",
-		"It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after."
+		"It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.[paragraph break][roman type]You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room."
 	};
 	now Prologue index is 1;
 	say entry 1 of Prologue pages;
-	say "[paragraph break][bracket]Type NEXT.[close bracket]".
+	say "[paragraph break][bracket]type next.[close bracket]".
 
+[ Treat a blank line (Enter) as NEXT; also accept NEXT/CONTINUE/START ]
 After reading a command when Prologue-on is true:
+	if the number of words in the player's command is 0:
+		advance the prologue;
+		reject the player's command;
 	let cmd be the player's command in lower case;
 	if cmd is "next" or cmd is "continue" or cmd is "start":
-		increment Prologue index;
-		if Prologue index <= the number of entries in Prologue pages:
-			say entry Prologue index of Prologue pages;
-			say "[paragraph break][bracket]Type next.[close bracket]";
-			reject the player's command;
-		otherwise:
-			now Prologue-on is false;
-			carry out the printing the banner text activity;
-			try looking;
-			reject the player's command;
-	otherwise:
-		say "[bracket]Type next.[close bracket]";
-		reject the player's command.
+		advance the prologue;
+		reject the player's command;
+	say "[bracket]type next.[close bracket]";
+	reject the player's command.
 
 [==================== THE APARTMENT ====================]
 
-The Studio is a room. "[roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—[bold type]and the apartment door to the west[roman type]."
+The Studio is a room. "[paragraph break][roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. [paragraph break]Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—and the apartment door to the west."
 
-[ WEST DOOR + HALLWAY (locked by invitation) ]
+[==================== WEST DOOR + HALLWAY ====================]
+
 The Hallway is a room. "Dim, echoey. Stairs down to the street, smell of dust and last night's takeout."
 
-The apartment door is a door. It is west of the Studio and east of the Hallway.
-The apartment door is closed and unlocked. The printed name is "door". Understand "front door/door/out" as the apartment door.
+The apartment door is scenery and a door. It is west of the Studio and east of the Hallway.
+The apartment door is closed and unlocked. The printed name is "door".
+Understand "front door/door/out" as the apartment door.
+
+[ Don’t even open the door if you’ve got nowhere to go ]
 Instead of opening the apartment door when invited-to-talls is false:
-	say "You put a hand on the knob and stop. [italic type]You shouldn't leave if you have nowhere to go.[roman type]" instead.
+	say "You put a hand on the knob and stop. [italic type]You shouldn't leave if you have nowhere to go.[roman type]";
 
-Instead of going west from the Studio when invited-to-talls is false:
-	say "[italic type]You shouldn't leave if you have nowhere to go.[roman type] Maybe figure out your night first, bro. Are you gonna do something, or wimp out and stay here and watch Tiny Desk videos again?" instead.
-
-
-[ Quality-of-life: LEAVE goes west ]
+[ Map LEAVE to going west ]
 Leaving is an action applying to nothing.
 Understand "leave" or "go out" or "head out" or "exit apartment" as leaving.
 Carry out leaving: try going west.
 
-[ When you ARE invited, auto-open and start subway selection on first step into the Hallway ]
-Before going west from the Studio when invited-to-talls is true:
+[ Gate the exit: need an invite, then need the horn; otherwise kick to subway picker ]
+Before going west from the Studio:
+	if invited-to-talls is false:
+		say "[italic type]You shouldn't leave if you have nowhere to go.[roman type] Maybe figure out your night first, bro. Are you gonna do something, or wimp out and stay here and watch Sex and the City again?" instead;
+	if the player does not carry the saxophone:
+		say "Forgetting something?" instead;
+	[ You’re invited and carrying your horn: launch the subway picker ]
 	begin subway-choose;
 	stop the action.
 
+[==================== RECORD PLAYER + RECORDS (Backyard is playing) ====================]
+
+A vinyl-record is a kind of thing. Understand "record/vinyl/album/lp" as a vinyl-record.
+
+The record player is scenery and a supporter in the Studio.
+The record player can be switched on or switched off. The record player is switched on.
+Understand "turntable/stereo/phonograph/player/record player" as the record player.
+The description of the record player is
+	"A thrift-store turntable flanked by two mismatched speakers. The belt’s a little wobbly, which is part of the charm. Right now the platter’s spinning [italic type][now-spinning][roman type].";
+
+To say now-spinning:
+	if a vinyl-record is on the record player:
+		let R be a random vinyl-record which is on the record player;
+		say "[printed name of R]";
+	else:
+		say "nothing in particular";
+
+The milk crate is scenery and an open container in the Studio.
+Understand "crate/record crate/records/stash" as the milk crate.
+The description of the milk crate is "A black plastic crate stuffed with sleeves: classics, thrift finds, and a few you definitely 'borrowed' from friends.";
+
+[ The one that’s actually playing ]
+The Backyard single is scenery and the vinyl-record on the record player.
+The printed name is "copy of 'Backyard' by 14th Street Band".
+Understand "backyard/14th/street/band/single/'45'/ep" as the Backyard single.
+
+[ Extra records in the crate, for flavor ]
+The Kind of Blue LP is a vinyl-record in the milk crate. The printed name is "'Kind of Blue' LP".
+The Blue Train LP is a vinyl-record in the milk crate. The printed name is "'Blue Train' LP".
+The Soul Station LP is a vinyl-record in the milk crate. The printed name is "'Soul Station' LP".
+The A Love Supreme LP is a vinyl-record in the milk crate. The printed name is "'A Love Supreme' LP".
+The Mingus Ah Um LP is a vinyl-record in the milk crate. The printed name is "'Mingus Ah Um' LP".
+
+[ Make sure it’s spinning from the top, even if Inform toggles defaults oddly ]
+When play begins:
+	now the record player is switched on;
+
+[ LISTEN vibes ]
+Instead of listening to the record player:
+	say "The needle whispers across the groove; the room feels taped together by cymbal wash and tenor.";
+Instead of listening in the Studio:
+	say "From the corner: a late-night hush—dark chords, air in the bells, time stretched thin in a good way.";
+
+[ Don’t let the player change/stop it—tonight’s vibe is perfect ]
+Instead of taking a vinyl-record when the noun is on the record player:
+	say "You hover over the sleeve. You can’t bring yourself to break the mood.";
+Instead of putting a vinyl-record on the record player:
+	say "You consider swapping it, then let your hand fall. This one fits the night a little too perfectly.";
+Instead of switching off the record player:
+	say "Not tonight. The room would feel wrong without it.";
+Instead of changing-music:
+	say "But this record's too good."
+Instead of switching on the record player:
+	if the record player is switched on:
+		say "Already spinning. You like it that way.";
+	else:
+		now the record player is switched on;
+		say "You nudge the switch; the platter settles into a slow, confident spin.";
+
+[ If someone tries PLAY on the player or on an LP, steer them ]
+Check playing the record player:
+	say "It’s already spinning—exactly the vibe you need." instead.
+Check playing a vinyl-record:
+	say "You flip it in your hands, but the one on the platter is perfect." instead.
+
+[ Convenience phrasings like 'change music' ]
+Changing-music is an action applying to nothing.
+Understand "change music" or "change the music" or "switch record" or "put on something else" or "spin something else" as changing-music.
+Carry out changing-music:
+	say "You reach for another sleeve, then smile and let it ride. This is the one.";
 
 [==================== FURNISHINGS ====================]
 
-The couch is an enterable supporter in the Studio. The description is "It's certainly seen better days, but still the best place to crash between gigs. Don't try to look between the cushions."
-The cushions is part of the couch. Understand "cushions/between the cushions/between/pillows/between cushions/between pillows" as the cushions. The description is "Dude. I told you not to look between the cushions. There's nothing here. Surprise."
-The rug is scenery in the Studio. The description is "Threadbare rectangle with a stubborn coffee halo. Doug gave it to you. It smells faintly like his mom's new boyfriend. That kinda sucks."
-The coffee stain is part of the rug. Understand "coffee/halo/stain/ring" as the coffee stain. The description is "A perfectly circular endorsement for coasters you do not own."
-The window is scenery in the Studio. The description is "Streetlights smear across the glass; the city hums behind it."
-The window pane is part of the window. The printed name is "window close-up". Understand "pane/close up/close-up" as the window pane. The description is "Smudges, tape shadows from old posters, and you—tired, slightly heroic."
-The city is scenery in the Studio. Understand "streetlights/neon/outside/street" as the city. The description is "A low, constant hush: buses sighing, a scooter whining three octaves too high, someone laughing like midnight owes them money."
-Some posters are scenery in the Studio. The description is "Gig flyers, half-peeling. You've headlined some of these—nice."
+The couch is scenery and an enterable supporter in the Studio.
+The description is "It's certainly seen better days, but still the best place to crash between gigs. A stray MetroCard has migrated to the armrest like it pays rent, and a little spindle of burned CDs is listing under one leg. Don't try to look between the cushions."
+
+The cushions are part of the couch.
+Understand "cushions/between the cushions/between/pillows/between cushions/between pillows" as the cushions.
+The description is "Dude. I told you not to look between the cushions. There's nothing here. Surprise. If you're hunting treasure, try the junk drawer like everyone else."
+
+The rug is scenery in the Studio.
+The description is "Threadbare rectangle with a stubborn coffee halo—thanks, Anthora cup. Doug gave it to you. It smells faintly like your mom's new boyfriend. That kinda sucks."
+
+The coffee stain is part of the rug.
+Understand "coffee/halo/stain/ring" as the coffee stain.
+The description is "A perfectly circular endorsement for coasters you do not own. The ring matches your Anthora cup perfectly. Ha ha."
+
+The window is scenery in the Studio.
+The description is "Streetlights smear across the glass; the city hums behind it. Why the hell did you come here in the first place. The sunset is nice, though—it reminds you of home. A disposable camera is sunbathing on the sill like it’s going to take pictures of itself."
+
+The window pane is part of the window.
+The printed name is "window close-up".
+Understand "pane/close up/close-up" as the window pane.
+The description is "Smudges, tape shadows from the last tenant's old posters, and you in the reflection—tired, not heroic in the least."
+
+The city is scenery in the Studio.
+Understand "streetlights/neon/outside/street" as the city.
+The description is "A low, constant hush: buses sighing, a scooter whining three octaves too high, someone laughing like midnight owes them money. On the corner, a Village Voice box losing a fight with gravity. Also a guy yelling [italic type]at[roman type] the library. Like, at the outside of the library. Who knows?"
+
+Some posters are scenery in the Studio.
+The description is "There's a poster of Charlie Parker. Isn't that nice? You've also got one of Sun Ra. Who do you think you are, bro? It's actually kind of cool. I bet girls will really love that one when they come over—not."
 
 [ INSTRUMENTS ]
 An instrument-thing is a kind of thing.
-The saxophone is an instrument-thing in the Studio. The description is "Lacquered, road-worn, tuned to your mood."
-The guitar is an instrument-thing in the Studio. The description is "Six strings and a history of late rent."
-Some instruments are scenery in the Studio. Understand "instrument/instruments" as the instruments.
-The description of the instruments is "Your little orchestra: [a list of instrument-things in the Studio]. Try PLAY SAXOPHONE or PLAY GUITAR."
-Playing is an action applying to one thing. Understand "play [something]" as playing.
+
+The saxophone is scenery and an instrument-thing in the Studio.
+Understand "sax/saxophone/horn/selmer" as the saxophone.
+The description is "[italic type]I remember when dad gave me this horn. I was just old enough to save all my lunch money to buy a beginner Yamaha horn, anything would have been better than the school model. [line break]When I got home from my last day of 11th grade, he had a shit-eating grin on his face. He was waiting for me to work hard enough to prove I wanted a nicer sax, and then he gave me his Selmer. What an asshole. Can't be too mad.[roman type] Your four-track is parked nearby—do you think it likes hearing you practice long tones all day?"
+
+The guitar is scenery and an instrument-thing in the Studio.
+The description is "This guitar just showed up in your life. It's not super clear where you got it, and you can't really play it that well. Jake, your first roommate, loved playing it for girls when they came over. That's the most action the guitar's seen. Besides the neck action (Yes, that's a joke about guitar luthiery). A stack of burned CDs leans against the case."
+
+Some instruments are scenery in the Studio.
+Understand "instrument/instruments" as the instruments.
+The description of the instruments is "Look, we get it. You're a musician. You've got a guitar and a saxophone. Your four-track's stuck fast-forward button looks at you from the floor."
+
+Playing is an action applying to one thing.
+Understand "play [something]" as playing.
 Check playing:
 	if the noun is not the saxophone and the noun is not the guitar:
 		say "You noodle the air. It responds politely by doing nothing." instead.
 Carry out playing:
 	if the noun is the saxophone:
-		say "You lay down a smoky riff. The room edits itself into black-and-white for a second.";
+		say "Wow, thank god you still remember your phrygian scales. Everyone was really worried whether you'd remember if there was an E natural in a Db phrygian scale. A huge round of applause when you hit it. Just kidding, there's nobody else here.";
 	otherwise:
 		say "A gentle pattern, thumb and nail. The room exhales."
 
-[ KITCHEN ]
-The kitchen is scenery in the Studio. The description is "A tiny L-shape of counter under a cabinet, with a fridge big enough to dent your shins."
-The kitchen-close is part of the kitchen. The printed name is "Kitchen Close-up". Understand "kitchen close/close-up/closer" as the kitchen-close. The description is "Crumbs, a chipped mug, and a note to buy coffee that you've ignored twice."
-The counter is part of the kitchen. Understand "countertop/counter top/worktop" as the counter. The description is "Formica scars, ring marks, and an optimistic cutting board."
-The cabinet is a closed openable container. It is part of the kitchen. The description is "Painted shut for years, then surrendered. Inside: mismatched glasses and a colander with ambition."
-Some mismatched glasses are in the cabinet. The mismatched glasses are plural-named. The description is "Cloudy but serviceable. They clink like they're auditioning."
-A colander is in the cabinet. The description is "A thousand holes and one dream."
+[==================== KITCHEN ====================]
+
+The kitchen is scenery in the Studio.
+The description is "A tiny L-shape of counter under a cabinet, with a fridge big enough to dent your shins. There’s a junk drawer that contains every bad decision you’ve ever made in battery form."
+
+The kitchen-close is part of the kitchen.
+The printed name is "Kitchen Close-up".
+Understand "kitchen close/close-up/closer" as the kitchen-close.
+The description is "Crumbs, a chipped mug, and a note to buy coffee that you've ignored twice. The Anthora cup is right there, ring-branding the counter."
+
+The kitchen-note is part of the kitchen-close.
+The printed name is "To-Do Note".
+Understand "coffee note/note/the note" as the kitchen-note.
+The description is "It's a note. It says, 'Buy coffee.' Maybe you should buy coffee. Do you have money to buy coffee, dude?"
+
+The counter is part of the kitchen.
+Understand "countertop/counter top/worktop" as the counter.
+The description is "Formica scars, ring marks, and an optimistic cutting board. An Anthora cup is auditioning another stain."
+
+The cabinet is a closed openable container.
+It is part of the kitchen.
+The description is "Painted shut for years, then surrendered. Inside: mismatched glasses and a colander with ambition. The dead Sidekick lives in the junk drawer below, obviously."
+
+Some mismatched glasses are in the cabinet.
+The mismatched glasses are plural-named.
+The description is "Cloudy but serviceable. Maybe one day, you'll have guests here and you can use them. For now, you'll just keep drinking mouth-to-sink. There's also a colander."
+
+A colander is in the cabinet.
+The description is "A thousand holes and one dream. Whatever the fuck that means."
+
 Before taking something (called loot) when loot is in the cabinet and the cabinet is closed:
 	say "You'll need to open the cabinet first." instead.
-The fridge is a closed openable container. It is part of the kitchen. The description is "Hums like a practicing tuba."
-A half lemon is in the fridge. Understand "lemon/half" as the half lemon. The description is "Zesty and brave."
-A jar of pickles is in the fridge. Understand "pickle/pickles/jar" as the jar of pickles. The description is "Floating emerald ovals promising a briny future."
-Two takeout boxes are in the fridge. The takeout boxes are plural-named. Understand "box/boxes/takeout" as the takeout boxes. The description is "Mysterious. You decide not to date them."
+
+The fridge is a closed openable container.
+It is part of the kitchen.
+The description is "When you were visiting apartments with your mom and... Doug, you almost started weeping when you entered this one. It was the first one with a fridge. Beautiful stainless steel, the sheen on the outside matches the frigidity inside. But, no freezer. Alas. The fridge magnets are trying to class it up."
+
+A half lemon is in the fridge.
+Understand "lemon/half" as the half lemon.
+The description is "Zesty and brave."
+
+A jar of pickles is in the fridge.
+Understand "pickle/pickles/jar" as the jar of pickles.
+The description is "Floating emerald ovals promising a briny future."
+
+Two takeout boxes are in the fridge.
+The takeout boxes are plural-named.
+Understand "box/boxes/takeout" as the takeout boxes.
+The description is "Mysterious. You decide not to date them."
+
 Before taking something (called chow) when chow is in the fridge and the fridge is closed:
 	say "You'll need to open the fridge first." instead.
+
 After opening the fridge:
-	say "You open the fridge.[paragraph break]A cool wave of... personality.";
+	say "You open the fridge.[paragraph break]A cool wave of... personality. It can't smell bad if there's nothing in it. Well, there's a few things: half a lemon, a jar of pickles, and two takeout boxes.";
 	try examining the fridge;
 	stop the action.
-The fridge-interior is scenery. The fridge-interior is part of the fridge. The printed name is "fridge close-up".
-Understand "shelves/interior/inside/close-up/close up" as the fridge-interior.
-The description of the fridge-interior is "Half a lemon, a heroic jar of pickles, and two takeout boxes with question marks on them."
 
+The fridge-interior is scenery.
+The fridge-interior is part of the fridge.
+The printed name is "fridge close-up".
+Understand "shelves/interior/inside/close-up/close up" as the fridge-interior.
+The description is "Half a lemon, a heroic jar of pickles, and two takeout boxes with question marks on them."
 [==================== MAIL (OPENABLE) ====================]
 
-The mail-bills is a closed openable container in the Studio.
+The mail-bills is scenery and a closed openable container in the Studio.
 The printed name is "some bills and mail".
 Understand "bills" or "mail" or "stack" or "pile" or "envelopes" or "letters" as the mail-bills.
 The description is "A rubber-banded stack: some official windows, some handwritten. You could OPEN it."
@@ -153,7 +336,7 @@ Understand "friendly" or "handwritten" as the friendly envelope.
 The description of the friendly envelope is "Handwritten return address. The vibe is 'finally, something nice.'".
 A handwritten letter is in the friendly envelope. The handwritten letter is portable.
 The description of the handwritten letter is
-	"[italic type]Hey—Proud of you for making the move. Call if you need a couch, or a pep talk. PS: Your tone on 'Body and Soul' gives me chills.[roman type] —M".
+	"[italic type]Hey—Proud of you for making the move. Call if you need a couch, or a pep talk. PS: Your tone on 'Body and Soul' is so sweet, honey![roman type] —M (and Doug!)".
 
 The landlord envelope is a closed openable container in the mail-bills.
 Understand "landlord letter" or "rent" or "rent envelope" or "office" as the landlord envelope.
@@ -171,23 +354,26 @@ The description of the electric bill is
 
 [==================== MAGAZINE (RICHER) ====================]
 
-The magazine is a thing in the Studio. The description is "A glossy culture magazine—scene write-ups, tiny reviews, classifieds, and gear ads. [italic type]EXAMINE PAGES[roman type], then type NEXT or PREVIOUS to flip."
+The magazine is scenery and a thing in the Studio. The description is "A glossy culture magazine—scene write-ups, tiny reviews, classifieds, and gear ads. [bracket]try looking at the page[close bracket]" 
 
 The pages are part of the magazine. The printed name is "pages close-up". Understand "pages/page" as the pages.
 
-Current page is a number that varies. Current page is 1. Max pages is a number that varies. Max pages is 4.
+Current page is a number that varies. Current page is 1. Max pages is a number that varies. Max pages is 6.
 Knows-Talls-address is a truth state that varies. Knows-Talls-address is false.
 
 To say show-page:
 	if current page is 1:
-		say "[bold type]PAGE 1 — Scene Report: Lower East Side[roman type][paragraph break]Tall's has quietly become the late-night hang—basement room, red door, low ceiling, louder conversations. If you can play in Bb, the house will make space.[paragraph break][italic type]Where:[roman type] 184 Ludlow St (downstairs). [italic type]Trains:[roman type] F/M/J/Z to Delancey–Essex.[paragraph break]Also noted: Kite Studios expands hours; Mr. Lin opens waitlist.[paragraph break][bracket]Numbers & classifieds on later pages. You can DIAL numbers from the wall phone.[close bracket]";
+		say "[bold type]PAGE 1 — Downtown Report[roman type][paragraph break]The scene fractured somewhere between Coltrane's sheets of sound and laptop glitch—now it's splintered into a dozen micro-movements, each with manifestos nobody reads and shows nobody promotes. Tonic's booking experimental Mondays. The Knitting Factory moved. Nobody cares.[paragraph break]What matters: [bold type]Tall's basement sessions where the piano's out of tune and the drummer studied in Berlin. Bring changes in three flats or go home.[paragraph break]Take the F train to Delancey Street. Exit, walk south on Essex, turn right on Delancey, left on Ludlow. Listen for it.[paragraph break][roman type][bracket]Payphone classifieds page 6. try the 'next' page[close bracket]";
 	else if current page is 2:
-		say "[bold type]PAGE 2 — Rehearsal & Rooms[roman type][line break]• Kite Studios (24h lockout) — 555-0145[line break]• Bulletin: 'late set players welcome' at Tall's (see page 1).";
+		say "[bold type]PAGE 2 — On Technique & Silence[roman type][paragraph break]Monk said the piano ain't got no wrong notes. He was half-right. The wrong note is the one you don't commit to.[paragraph break]Downtown's full of conservatory kids playing Bergonzi patterns over 'Stella' like they're decoding the Rosetta Stone. Meanwhile the guy who dropped out sophomore year is making the room breathe because he learned space before speed.[paragraph break]The late set isn't about your Transcriptions folder. It's about making eye contact with the bassist during the bridge and meaning it.[paragraph break]Ornette said learn the changes, then forget them. He was completely right. [bracket]try the 'next' page[close bracket]";
 	else if current page is 3:
-		say "[bold type]PAGE 3 — Repairs & Services[roman type][line break]• Mr. Lin (Sax repair) — 555-0177[line break]• Amp Doctor — 555-0158[line break][italic type]Tip:[roman type] buzzing? Check your ground first.";
-	else:
-		say "[bold type]PAGE 4 — Classifieds[roman type][line break]• Landlord Office — 555-0119[line break]• Rides: Yellow Cab — 555-0129[line break]• Pizza Planet — 555-0199 (two toppings after midnight).";
-	say "[paragraph break][bracket]Type NEXT or PREVIOUS to flip pages.[close bracket]".
+		say "[bold type]PAGE 3 — Listening Notes[roman type][line break]• [italic type]Willisau Concert 1973[roman type] (import, good luck finding it) — Cecil Taylor, 47 minutes, no breaths. Sounds like architecture collapsing inward. Essential.[line break]• [italic type]Pier 34 Tape[roman type] (circulating CD-R) — Two basses, prepared guitar, traffic from FDR Drive. Recorded 2 a.m. July, sounds like humidity.[line break]• [italic type]The Köln Concert[roman type] — Everyone owns it, nobody admits they cry during Part IIc.[paragraph break]If your speakers can't reproduce a piano's lower register, you're listening to outlines. Borrow actual monitors or wait.[bracket]try the 'next' page[close bracket]";
+	else if current page is 4:
+		say "[bold type]PAGE 4 — Technical Information[roman type][paragraph break][italic type]Dmitri's Reed Adjustment, 555-0177[roman type][line break]Won't work on synthetic reeds. 'The cane remembers humidity; plastic remembers nothing.' Waiting list: two months.[paragraph break][italic type]Tube Amp Repair, 555-0158[roman type][line break]Brings dead Fenders back from 1964. Charges by honesty—admitted you gigged it in the rain, costs less.[paragraph break]Philosophy: Your instrument's limitations are compositional opportunities. A sticky G-sharp isn't a problem; it's a reason to avoid G-sharp.[paragraph break][bracket]try the 'next' page[close bracket]";
+	else if current page is 5:
+		say "[bold type]PAGE 5 — Calendar[roman type][paragraph break][italic type]Tonic, Monday[roman type] — Electroacoustic series. Last week: 40-minute feedback piece, half the room walked, other half wept. This week: who knows.[paragraph break][italic type]The Stone (when it opens)[roman type] — Zorn's new spot, invitation-only until it isn't. No drinks, no talking, no bullshit.[paragraph break][italic type]Some Williamsburg Loft[roman type] — Address via word-of-mouth. Prepared piano, analog synth, donation-based. BYOB, respect the neighbors.[paragraph break][italic type]55 Bar, Thursday[roman type] — Guitarist playing Wes lines through a cranked Deluxe Reverb. The only standards set worth attending.[paragraph break]The Voice stopped reviewing half these shows. Good. Criticism's dead anyway. [bracket]try the 'next' page[close bracket]";
+	else if current page is 6:
+		say "[bold type]PAGE 6 — Miscellany[roman type][paragraph break]Repair: 555-0177[line break]Amplification: 555-0158[line break]Car service (when the F stops running): 555-0129[paragraph break]• Soprano player seeking duos. Interested in Braxton, Lacy, silence. No bebop tourists.[line break]• Rehearsal space, Greenpoint. Month-to-month, no heat, G train. Bring space heater and humility.[line break]• Trading: Complete Ayler box set for working cassette four-track. Serious offers only.[paragraph break][italic type]Coda:[roman type] The tradition isn't what happened. It's what happens next, badly, in a basement, for nobody.[paragraph break] And that's the zine, baby.".
 
 After examining the pages:
 	say "[show-page]";
@@ -195,7 +381,7 @@ After examining the pages:
 		now Knows-Talls-address is true.
 
 Flipping-next is an action applying to nothing.
-Understand "next" or "next page" or "turn page" or "flip page" or "flip" or "turn to next page" as flipping-next.
+Understand "yes" or "next" or "next page" or "turn page" or "flip page" or "flip" or "turn to next page" as flipping-next.
 Carry out flipping-next:
 	if current page is max pages:
 		now current page is 1;
@@ -226,7 +412,7 @@ Understand "pad/dial/keys/close-up/close up" as the dial pad. The description of
 
 Phone-rung is a truth state that varies. Phone-rung is false. Phone-ringing is a truth state that varies. Phone-ringing is false.
 
-Every turn when the turn count is 7 and phone-rung is false:
+Every turn when the turn count is 15 and phone-rung is false:
 	now phone-rung is true;
 	now phone-ringing is true;
 	say "[bold type]*BRRRRING*[roman type] The wall phone bursts to life. ([italic type]ANSWER PHONE[roman type] to pick up.)".
@@ -330,8 +516,8 @@ Invited-to-Talls is a truth state that varies. Invited-to-Talls is false.
 To begin the call:
 	now in-call is true;
 	now call-stage is 1;
-	say "'Hey. It's Rena.' The voice sits somewhere between a yawn and a dare. 'You should come out—Tall's is running a late jam tonight.'";
-	say "[paragraph break][bold type]1[roman type]) 'What's up? Sell me.'[line break][bold type]2[roman type]) 'Tonight? I'm wrecked.'[line break][bold type]3[roman type]) 'Rena who?'";
+	say "'It's Rena.' Not a question. The voice carries last night's cigarettes and this morning's coffee. 'Tall's. Late jam. You're coming.'";
+	say "[paragraph break][bold type]1[roman type]) 'Am I? Tell me why.'[line break][bold type]2[roman type]) 'Tonight? I'm destroyed.'[line break][bold type]3[roman type]) 'Rena who?'";
 	say "[paragraph break][bracket]Type 1, 2, or 3. HANG UP to end the call.[close bracket]".
 
 Choosing is an action applying to one number.
@@ -340,33 +526,33 @@ Understand "[number]" as choosing when in-call is true.
 Carry out choosing:
 	if call-stage is 1:
 		if the number understood is 1:
-			say "'Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen.'";
-			say "[paragraph break][bold type]1[roman type]) 'Okay, make your pitch.'[line break][bold type]2[roman type]) 'I don't have the energy.'[line break][bold type]3[roman type]) 'Do they even let walk-ins?'";
+			say "'Because the rhythm section isn't garbage for once. Kenji's on bass—the guy who did that Tonic residency, actual time. Piano player came up under someone who matters. Drums are solid. Sign-up's at one but the real players show by midnight.' Pause. 'Be one of them.'";
+			say "[paragraph break][bold type]1[roman type]) 'What's your angle here?'[line break][bold type]2[roman type]) 'I'm not going.'[line break][bold type]3[roman type]) 'Is this an open thing or do I need an in?'";
 			now call-stage is 2;
 		otherwise if the number understood is 2:
-			say "'Wrecked's fine. Play one tune, drink one drink, shake three hands. That's all. You'll thank me tomorrow.'";
-			say "[paragraph break][bold type]1[roman type]) 'One tune, huh? Convince me.'[line break][bold type]2[roman type]) 'Pass.'[line break][bold type]3[roman type]) 'Feels risky without a call.'";
+			say "'Good. Exhausted reads honest.' A lighter flicks on her end. 'One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math.'";
+			say "[paragraph break][bold type]1[roman type]) 'One tune gets me what, exactly?'[line break][bold type]2[roman type]) 'Not interested.'[line break][bold type]3[roman type]) 'Walking into a jam cold sounds like a bad idea.'";
 			now call-stage is 2;
 		otherwise if the number understood is 3:
-			say "'Rena. Drummer. The van. The sticks. The patience.' You can hear her grin. 'Tall's jam. Tonight.'";
-			say "[paragraph break][bold type]1[roman type]) 'Right. Why me?'[line break][bold type]2[roman type]) 'Still a maybe.'[line break][bold type]3[roman type]) 'I don't even know the book.'";
+			say "'Rena. I drove you back from that warehouse thing in Red Hook. You fell asleep holding your horn case.' Dry laugh. 'Anyway. Tall's tonight. Jam. I told Kenji you don't suck. Don't make me a liar.'";
+			say "[paragraph break][bold type]1[roman type]) 'Why'd you tell him that?'[line break][bold type]2[roman type]) 'Maybe. Probably not.'[line break][bold type]3[roman type]) 'I don't know their repertoire.'";
 			now call-stage is 2;
 		otherwise:
 			say "Pick 1, 2, or 3.";
 	otherwise if call-stage is 2:
 		if the number understood is 1:
-			say "'You sound good. You need reps. People there can hire you. And the room forgives. Show up, take a chorus, leave a name.' A beat. 'So... tonight.'";
+			say "'Because you don't sound like you're quoting anyone yet. That window closes.' Traffic noise, a siren. 'Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently.' Beat. 'Ludlow. Red door. Downstairs.'";
 		otherwise if the number understood is 2:
-			say "'Fine. Be tired on stage. Two choruses and bounce. Tall's. Tonight.' The confidence leaves no wedge for argument.";
+			say "'Yeah you are. Play tired. Chet Baker made a career out of it.' Her voice gets an edge. 'Three minutes. In and out. Tall's cares if you improved the last eight bars, not if you're chipper about it.' Not asking anymore. 'Red door. Ludlow. Basement. Tonight.'";
 		otherwise if the number understood is 3:
-			say "'It's a jam, not a recital. Call something in Bb, listen hard, lay back on the head. Trust me.' A soft laugh. 'Tall's. Tonight.'";
+			say "'It's a session, not a dissertation defense. Bring a head in Bb. 'Confirmation' if you want respect, 'Autumn Leaves' if you want to actually play. State the melody, don't rush, let the bass walk. The form does the work.' A short laugh. 'Tall's. Ludlow. Red basement door. Tonight.' She already assumes you're showing.";
 		otherwise:
 			say "Pick 1, 2, or 3.";
 			stop the action;
 		now invited-to-talls is true;
 		now in-call is false;
 		now call-stage is 0;
-		say "You draw breath to ask where it is—click. Dead line. No address.";
+		say "[paragraph break]You start to ask which block on Ludlow, is there a sign, what time exactly—click. Line goes dead. She figured you'd either know or figure it out.";
 	otherwise:
 		say "The call's already done."
 
