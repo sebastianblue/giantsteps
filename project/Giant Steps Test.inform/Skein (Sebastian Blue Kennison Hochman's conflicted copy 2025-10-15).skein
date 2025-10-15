@@ -1,0 +1,3687 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Giant Steps Test</command>
+        <result xml:space="preserve">
+Giant Steps: Chapter 1: Autumn in New York
+An Interactive Fiction by You
+Release 1 / Serial number 251015 / Inform 7 v10.1.2 / D
+
+Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+            <child nodeId="node-1423"></child>
+            <child nodeId="node-1329"></child>
+            <child nodeId="node-1158"></child>
+            <child nodeId="node-1394"></child>
+            <child nodeId="node-1404"></child>
+            <child nodeId="node-1416"></child>
+            <child nodeId="node-1408"></child>
+            <child nodeId="node-1003"></child>
+            <child nodeId="node-1458"></child>
+            <child nodeId="node-1401"></child>
+            <child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "What's your angle here?"
+2) "I'm not going."
+3) "Is this an open thing or do I need an in?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">look door</command>
+        <result xml:space="preserve">You see nothing special about the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You step back from the wall phone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">leave room</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">leave door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">leave through the door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">go through the door</command>
+        <result xml:space="preserve">(first opening the door)
+
+Hallway
+Dim, echoey. Stairs down to the street, smell of dust and last night's takeout.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">go downstairs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You shouldn't leave if you have nowhere to go. Maybe figure out your night first, bro. Are you gonna do something, or wimp out and stay here and watch Sex and the City again?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">l instruments</command>
+        <result xml:space="preserve">Which do you mean, the saxophone, the guitar or the instruments?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1403"></child>
+        </children>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">sax</command>
+        <result xml:space="preserve">I remember when dad gave me this horn. I was just old enough to save all my lunch money to buy a beginner Yamaha horn, anything would have been better than the school model. 
+When I got home from my last day of 11th grade, he had a shit-eating grin on his face. He was waiting for me to work hard enough to prove I wanted a nicer sax, and then he gave me his Selmer. What an asshole. Can't be too mad. Your four-track is parked nearby-do you think it likes hearing you practice long tones all day?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1458">
+        <command xml:space="preserve">take saxophone</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1460"></child>
+        </children>
+    </item>
+    <item nodeId="node-1460">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a saxophone
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">It's been almost two months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?
+
+"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!"
+
+[type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">Stupid. That's stupid. And I'm talking to myself again.
+
+[type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.
+
+You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
+
+[type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">Studio
+
+
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+            <child nodeId="node-1187"></child>
+            <child nodeId="node-1093"></child>
+            <child nodeId="node-1195"></child>
+            <child nodeId="node-1053"></child>
+            <child nodeId="node-1036"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+            <child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1296"></child>
+            <child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+            <child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Good. Exhausted reads honest." A lighter flicks on her end. "One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math."
+
+
+1) "One tune gets me what, exactly?"
+2) "Not interested."
+3) "Walking into a jam cold sounds like a bad idea."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Because you don't sound like you're quoting anyone yet. That window closes." Traffic noise, a siren. "Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently." Beat. "Ludlow. Red door. Downstairs."
+
+
+You start to ask which block on Ludlow, is there a sign, what time exactly-click. Line goes dead. She figured you'd either know or figure it out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio (on the phone nook)
+You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
+
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">leave phone nook</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "Okay, make your pitch."
+2) "I don't have the energy."
+3) "Do they even let walk-ins?"
+
+"Because you don't sound like you're quoting anyone yet. That window closes." Traffic noise, a siren. "Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently." Beat. "Ludlow. Red door. Downstairs."
+
+
+You start to ask which block on Ludlow, is there a sign, what time exactly-click. Line goes dead. She figured you'd either know or figure it out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1298"></child>
+        </children>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "What's your angle here?"
+2) "I'm not going."
+3) "Is this an open thing or do I need an in?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+            <child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Wrecked's fine. Play one tune, drink one drink, shake three hands. That's all. You'll thank me tomorrow."
+
+
+1) "One tune, huh? Convince me."
+2) "Pass."
+3) "Feels risky without a call."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Fine. Be tired on stage. Two choruses and bounce. Tall's. Tonight." The confidence leaves no wedge for argument.
+You draw breath to ask where it is-click. Dead line. No address.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">look at magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. EXAMINE PAGES, then type NEXT or PREVIOUS to flip.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">examine page</command>
+        <result xml:space="preserve">You see nothing special about the pages close-up.
+
+PAGE 1 - Scene Report: Lower East Side
+
+Tall's has quietly become the late-night hang-basement room, red door, low ceiling, louder conversations. If you can play in Bb, the house will make space.
+
+Where: 184 Ludlow St (downstairs). Trains: F/M/J/Z to Delancey-Essex.
+
+Also noted: Kite Studios expands hours; Mr. Lin opens waitlist.
+
+[Numbers &amp; classifieds on later pages. You can DIAL numbers from the wall phone.]
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Subway - pick a stop:
+1) Delancey-Essex
+2) Spring St (6)
+3) Prince St (R/W)
+4) Canal St (A/C/E)
+5) Hoyt-Schermerhorn
+6) 14 St-Union Sq
+7) W 4 St-Wash Sq
+8) 34 St-Herald Sq
+9) Times Sq-42 St
+10) Grand St (B/D)
+11) Bedford Av (L)
+12) Atlantic Av-Barclays Ctr
+13) 2 Av (F)
+14) Broadway-Lafayette
+15) Essex St (J/M/Z)
+16) 1 Av (L)
+17) 7 Av-Park Slope
+18) Nostrand Av (A/C)
+19) Queensboro Plaza
+20) Myrtle-Wyckoff Avs
+
+(The magazine said Tall's is at 184 Ludlow, F/M/J/Z to Delancey-Essex.)
+
+[Type a number (1-20).]
+(subway) &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">Delancey Street
+Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked Tall's crouches under a short run of stairs. (And yeah-the address matches the magazine: 184 Ludlow.)
+
+Delancey Street
+Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked Tall's crouches under a short run of stairs. (And yeah-the address matches the magazine: 184 Ludlow.)
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1269"></child>
+        </children>
+    </item>
+    <item nodeId="node-1269">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+        </children>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+        </children>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "What's your angle here?"
+2) "I'm not going."
+3) "Is this an open thing or do I need an in?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">
+
+You start to feel your heart beat. "Why, why why, why would I say yes to this."
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You shouldn't leave if you have nowhere to go. Maybe figure out your night first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">look at mail</command>
+        <result xml:space="preserve">A rubber-banded stack: some official windows, some handwritten. You could OPEN it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">open mail</command>
+        <result xml:space="preserve">You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, and a ConEd envelope.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">open friendly</command>
+        <result xml:space="preserve">You open the friendly envelope, revealing a handwritten letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (in which are a friendly envelope (in which is a handwritten letter), a landlord envelope (closed) and a coned envelope (closed)) and a magazine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">look at letter</command>
+        <result xml:space="preserve">Hey-Proud of you for making the move. Call if you need a couch, or a pep talk. PS: Your tone on "Body and Soul" gives me chills. -M
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">look at landlord envelope</command>
+        <result xml:space="preserve">Printed window, stern font. Smells faintly of copier ozone.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">You step over to the wall phone.
+
+Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (in which are a friendly envelope (in which is a handwritten letter), a landlord envelope (closed) and a coned envelope (closed)) and a magazine here.
+
+"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "Okay, make your pitch."
+2) "I don't have the energy."
+3) "Do they even let walk-ins?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"You sound good. You need reps. People there can hire you. And the room forgives. Show up, take a chorus, leave a name." A beat. "So... tonight."
+You draw breath to ask where it is-click. Dead line. No address.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (in which are a friendly envelope (in which is a handwritten letter), a landlord envelope (closed) and a coned envelope (closed)) and a magazine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first getting off the phone nook)
+You step back from the wall phone.
+
+(first opening the door)
+Subway - pick a stop:
+1) Delancey-Essex
+2) Spring St
+3) Prince St
+4) Canal St
+5) Hoyt-Schermerhorn
+
+[Type a number (1-5) or the stop name.]
+(subway) &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">You ride down, second-guess it on the platform, and circle back. Maybe actually read the magazine first.
+
+Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (in which are a friendly envelope (in which is a handwritten letter), a landlord envelope (closed) and a coned envelope (closed)) and a magazine here.
+
+Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (in which are a friendly envelope (in which is a handwritten letter), a landlord envelope (closed) and a coned envelope (closed)) and a magazine here.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 2 - Rehearsal &amp; Rooms
+• Kite Studios (24h lockout) - 555-0145
+• Bulletin: "late set players welcome" at Tall's (see page 1).
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 3 - Repairs &amp; Services
+• Mr. Lin (Sax repair) - 555-0177
+• Amp Doctor - 555-0158
+Tip: buzzing? Check your ground first.
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 4 - Classifieds
+• Landlord Office - 555-0119
+• Rides: Yellow Cab - 555-0129
+• Pizza Planet - 555-0199 (two toppings after midnight).
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 1 - Scene Report: Lower East Side
+
+Tall's has quietly become the late-night hang-basement room, red door, low ceiling, louder conversations. If you can play in Bb, the house will make space.
+
+Where: 184 Ludlow St (downstairs). Trains: F/M/J/Z to Delancey-Essex.
+
+Also noted: Kite Studios expands hours; Mr. Lin opens waitlist.
+
+[Numbers &amp; classifieds on later pages. You can DIAL numbers from the wall phone.]
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 2 - Rehearsal &amp; Rooms
+• Kite Studios (24h lockout) - 555-0145
+• Bulletin: "late set players welcome" at Tall's (see page 1).
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 3 - Repairs &amp; Services
+• Mr. Lin (Sax repair) - 555-0177
+• Amp Doctor - 555-0158
+Tip: buzzing? Check your ground first.
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 4 - Classifieds
+• Landlord Office - 555-0119
+• Rides: Yellow Cab - 555-0129
+• Pizza Planet - 555-0199 (two toppings after midnight).
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 1 - Scene Report: Lower East Side
+
+Tall's has quietly become the late-night hang-basement room, red door, low ceiling, louder conversations. If you can play in Bb, the house will make space.
+
+Where: 184 Ludlow St (downstairs). Trains: F/M/J/Z to Delancey-Essex.
+
+Also noted: Kite Studios expands hours; Mr. Lin opens waitlist.
+
+[Numbers &amp; classifieds on later pages. You can DIAL numbers from the wall phone.]
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">nexta</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen."
+
+
+1) "Okay, make your pitch."
+2) "I don't have the energy."
+3) "Do they even let walk-ins?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"You sound good. You need reps. People there can hire you. And the room forgives. Show up, take a chorus, leave a name." A beat. "So... tonight."
+You draw breath to ask where it is-click. Dead line. No address.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Subway - pick a stop:
+1) Delancey-Essex
+2) Spring St (6)
+3) Prince St (R/W)
+4) Canal St (A/C/E)
+5) Hoyt-Schermerhorn
+6) 14 St-Union Sq
+7) W 4 St-Wash Sq
+8) 34 St-Herald Sq
+9) Times Sq-42 St
+10) Grand St (B/D)
+11) Bedford Av (L)
+12) Atlantic Av-Barclays Ctr
+13) 2 Av (F)
+14) Broadway-Lafayette
+15) Essex St (J/M/Z)
+16) 1 Av (L)
+17) 7 Av-Park Slope
+18) Nostrand Av (A/C)
+19) Queensboro Plaza
+20) Myrtle-Wyckoff Avs
+
+[Type a number (1-20).]
+(subway) &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">Delancey Street
+Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked Tall's crouches under a short run of stairs. (And yeah-the address matches the magazine: 184 Ludlow.)
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">enter tall's</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">look door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">look stairs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">You step over to the wall phone.
+
+Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
+
+"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Wrecked's fine. Play one tune, drink one drink, shake three hands. That's all. You'll thank me tomorrow."
+
+
+1) "One tune, huh? Convince me."
+2) "Pass."
+3) "Feels risky without a call."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Fine. Be tired on stage. Two choruses and bounce. Tall's. Tonight." The confidence leaves no wedge for argument.
+You draw breath to ask where it is-click. Dead line. No address.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">look magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. EXAMINE PAGES, then type NEXT or PREVIOUS to flip.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">take magazine</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a magazine
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">look magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. EXAMINE PAGES, then type NEXT or PREVIOUS to flip.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the magazine)
+A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. EXAMINE PAGES, then type NEXT or PREVIOUS to flip.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+        </children>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">x pages</command>
+        <result xml:space="preserve">You see nothing special about the pages close-up.
+
+PAGE 1 - Scene Report: Lower East Side
+
+Tall's has quietly become the late-night hang-basement room, red door, low ceiling, louder conversations. If you can play in Bb, the house will make space.
+
+Where: 184 Ludlow St (downstairs). Trains: F/M/J/Z to Delancey-Essex.
+
+Also noted: Kite Studios expands hours; Mr. Lin opens waitlist.
+
+[Numbers &amp; classifieds on later pages. You can DIAL numbers from the wall phone.]
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">3</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">next page</command>
+        <result xml:space="preserve">PAGE 2 - Rehearsal &amp; Rooms
+• Kite Studios (24h lockout) - 555-0145
+• Bulletin: "late set players welcome" at Tall's (see page 1).
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">next page</command>
+        <result xml:space="preserve">PAGE 3 - Repairs &amp; Services
+• Mr. Lin (Sax repair) - 555-0177
+• Amp Doctor - 555-0158
+Tip: buzzing? Check your ground first.
+
+
+[Type NEXT or PREVIOUS to flip pages.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">call 555 0158</command>
+        <result xml:space="preserve">You tap the keypad: 555 0158.
+
+
+A crisp voice: "Operator. What city and number please?" You panic and hang up politely.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+        </children>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar and a some bills and mail (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first getting off the phone nook)
+You step back from the wall phone.
+
+(first opening the door)
+Subway - pick a stop:
+1) Delancey-Essex
+2) Spring St
+3) Prince St
+4) Canal St
+5) Hoyt-Schermerhorn
+
+(The magazine said Tall's is at 184 Ludlow, F/M/J/Z to Delancey-Essex.)
+
+[Type a number (1-5) or the stop name.]
+(subway) &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">Delancey Street
+Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked Tall's crouches under a short run of stairs. (And yeah-the address matches the magazine: 184 Ludlow.)
+
+Delancey Street
+Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked Tall's crouches under a short run of stairs. (And yeah-the address matches the magazine: 184 Ludlow.)
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1084"></child>
+        </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">look me</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">eat magazine</command>
+        <result xml:space="preserve">That's plainly inedible.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">enter tall's</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">look magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads. [try looking at the page]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">look at page</command>
+        <result xml:space="preserve">You see nothing special about the pages close-up.
+
+PAGE 1 - Downtown Report
+
+The scene fractured somewhere between Coltrane's sheets of sound and laptop glitch-now it's splintered into a dozen micro-movements, each with manifestos nobody reads and shows nobody promotes. Tonic's booking experimental Mondays. The Knitting Factory moved. Nobody cares.
+
+What matters: Tall's basement sessions where the piano's out of tune and the drummer studied in Berlin. Bring changes in three flats or go home.
+
+Take the F train to Delancey Street. Exit, walk south on Essex, turn right on Delancey, left on Ludlow. Listen for it.
+
+[Payphone classifieds page 6. Next Page?]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">look at current page</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">next page</command>
+        <result xml:space="preserve">PAGE 2 - On Technique &amp; Silence
+
+Monk said the piano ain't got no wrong notes. He was half-right. The wrong note is the one you don't commit to.
+
+Downtown's full of conservatory kids playing Bergonzi patterns over "Stella" like they're decoding the Rosetta Stone. Meanwhile the guy who dropped out sophomore year is making the room breathe because he learned space before speed.
+
+The late set isn't about your Transcriptions folder. It's about making eye contact with the bassist during the bridge and meaning it.
+
+Ornette said learn the changes, then forget them. He was completely right. [Next Page?]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">PAGE 3 - Listening Notes
+• Willisau Concert 1973 (import, good luck finding it) - Cecil Taylor, 47 minutes, no breaths. Sounds like architecture collapsing inward. Essential.
+• Pier 34 Tape (circulating CD-R) - Two basses, prepared guitar, traffic from FDR Drive. Recorded 2 a.m. July, sounds like humidity.
+• The Köln Concert - Everyone owns it, nobody admits they cry during Part IIc.
+
+If your speakers can't reproduce a piano's lower register, you're listening to outlines. Borrow actual monitors or wait.[Next Page?]
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">look a the bills</command>
+        <result xml:space="preserve">Envelopes with complicated feelings about you. One looks friendly. The rest do not.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">look at friendly</command>
+        <result xml:space="preserve">Handwritten return address. The vibe is "finally, something nice."
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">What do you want to open?
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">open mail</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">look at window</command>
+        <result xml:space="preserve">(the window)
+Streetlights smear across the glass; the city hums behind it.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">look at city</command>
+        <result xml:space="preserve">A low, constant hush: buses sighing, a scooter whining three octaves too high, someone laughing like midnight owes them money.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">look at instruments</command>
+        <result xml:space="preserve">Which do you mean, the saxophone, the guitar or the instruments?
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">the instruments</command>
+        <result xml:space="preserve">Which do you mean, the saxophone, the guitar or the instruments?
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">the guitar</command>
+        <result xml:space="preserve">Six strings and a history of late rent.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">the couch</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">look at couch</command>
+        <result xml:space="preserve">It's certianly seen better days, but still the best place to crash between gigs. That is, if you ever get any gigs in this city, loser.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">You step over to the wall phone.
+
+Studio (on the phone nook)
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it to you. There's a magazine on the counter, and bills and mail pile up slowly. There's a couch pushed up against a big window, a grimy, scuffed rug underfoot, a wall phone by the door, instruments everywhere and a kitchen nook just over there.
+
+You can see a couch, a saxophone, a guitar, a some bills and mail and a magazine here.
+
+"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+You're on the phone. Choose 1-3, or type HANG UP.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">3</command>
+        <result xml:space="preserve">"Rena. Drummer. The van. The sticks. The patience." You can hear her grin. "Tall's jam. Tonight."
+
+
+1) "Right. Why me?"
+2) "Still a maybe."
+3) "I don't even know the book."
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">3</command>
+        <result xml:space="preserve">"It's a jam, not a recital. Call something in Bb, listen hard, lay back on the head. Trust me." A soft laugh. "Tall's. Tonight."
+You open your mouth for directions. Too late. She's gone.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">leave room</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">go to door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">look at doore</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">look at door</command>
+        <result xml:space="preserve">The exit. On it: a battered subway map and more tape residue.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">l magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Studio
+You put a record on your tiny AT turntable in the corner of your place. Jazz floods the room.
+
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">look magazine</command>
+        <result xml:space="preserve">A glossy culture magazine-scene write-ups, tiny reviews, classifieds, and gear ads.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">look at the page</command>
+        <result xml:space="preserve">You see nothing special about the pages close-up.
+
+PAGE 1 - Downtown Report
+
+The scene fractured somewhere between Coltrane's sheets of sound and laptop glitch-now it's splintered into a dozen micro-movements, each with manifestos nobody reads and shows nobody promotes. Tonic's booking experimental Mondays. The Knitting Factory moved. Nobody cares.
+
+What matters: Ludlow basement sessions where the piano's out of tune and the drummer studied in Berlin. Bring changes in three flats or go home.
+
+Take the F train to Delancey Street. Exit, walk south on Essex, turn right on Delancey, left on Ludlow. Listen for it.
+
+[Payphone classifieds page 6. Actually dial the numbers-email is for squares.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"Hey. It's Rena." The voice sits somewhere between a yawn and a dare. "You should come out-Tall's is running a late jam tonight."
+
+
+1) "What's up? Sell me."
+2) "Tonight? I'm wrecked."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3. HANG UP to end the call.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Wrecked's fine. Play one tune, drink one drink, shake three hands. That's all. You'll thank me tomorrow."
+
+
+1) "One tune, huh? Convince me."
+2) "Pass."
+3) "Feels risky without a call."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Fine. Be tired on stage. Two choruses and bounce. Tall's. Tonight." The confidence leaves no wedge for argument.
+You draw breath to ask where it is-click. Dead line. No address.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+        </children>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Subway - pick a stop:
+1) Delancey-Essex
+2) Spring St (6)
+3) Prince St (R/W)
+4) Canal St (A/C/E)
+5) Hoyt-Schermerhorn
+6) 14 St-Union Sq
+7) W 4 St-Wash Sq
+8) 34 St-Herald Sq
+9) Times Sq-42 St
+10) Grand St (B/D)
+11) Bedford Av (L)
+12) Atlantic Av-Barclays Ctr
+13) 2 Av (F)
+14) Broadway-Lafayette
+15) Essex St (J/M/Z)
+16) 1 Av (L)
+17) 7 Av-Park Slope
+18) Nostrand Av (A/C)
+19) Queensboro Plaza
+20) Myrtle-Wyckoff Avs
+
+[Type a number (1-20).]
+(subway) &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">5</command>
+        <result xml:space="preserve">Where the fuck am I? Maybe actually figure out where Tall's is first.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">5</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1408">
+        <command xml:space="preserve">look mail</command>
+        <result xml:space="preserve">A rubber-banded stack: some official windows, some handwritten. You could open this pile. A pill bottle sits next to the stack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+        </children>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
+        <command xml:space="preserve">open mail</command>
+        <result xml:space="preserve">You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, a ConEd envelope, and a stiff university envelope.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1411"></child>
+        </children>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">open university</command>
+        <result xml:space="preserve">You open the professor envelope, revealing a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">real</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">read</command>
+        <result xml:space="preserve">What do you want to read?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1415"></child>
+        </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">letter</command>
+        <result xml:space="preserve">Dear Desmond,
+
+Congratulations on your graduation. I suppose four years is better than five, though I must admit I expected more consistent dedication from someone with your raw talent.
+
+Your senior recital was... adequate. That flubbed entrance in "Epistrophe" still haunts me (Monk's rolling around in his grave), if I'm being honest. You had the technique but never the discipline to play the changes correctly. Always rushing, always pushing ahead of the beat like you were trying to escape something.
+
+Nevertheless, you've earned your degree. I hope New York treats you well. Do try to apply yourself more diligently than you did in your counterpoint studies.
+
+Sincerely,
+Professor Albright
+
+&gt; What an asshole
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1416">
+        <command xml:space="preserve">look letters</command>
+        <result xml:space="preserve">A rubber-banded stack: some official windows, some handwritten. You could open this pile. A pill bottle sits next to the stack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1417"></child>
+        </children>
+    </item>
+    <item nodeId="node-1417">
+        <command xml:space="preserve">open them</command>
+        <result xml:space="preserve">I'm not sure what 'them' refers to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1418"></child>
+        </children>
+    </item>
+    <item nodeId="node-1418">
+        <command xml:space="preserve">open the letters</command>
+        <result xml:space="preserve">You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, a ConEd envelope, and a stiff university envelope.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1419"></child>
+        </children>
+    </item>
+    <item nodeId="node-1419">
+        <command xml:space="preserve">open university</command>
+        <result xml:space="preserve">You open the professor envelope, revealing a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1420"></child>
+        </children>
+    </item>
+    <item nodeId="node-1420">
+        <command xml:space="preserve">read it</command>
+        <result xml:space="preserve">Crisp university stationery. The return address is from the music department. Smells like regret and toner.
+
+In the professor envelope is a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">read it</command>
+        <result xml:space="preserve">Crisp university stationery. The return address is from the music department. Smells like regret and toner.
+
+In the professor envelope is a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">read the letter</command>
+        <result xml:space="preserve">Dear Desmond,
+
+Congratulations on your graduation. I suppose four years is better than five, though I must admit I expected more consistent dedication from someone with your raw talent.
+
+Your senior recital was... adequate. That flubbed entrance in "Epistrophe" still haunts me (Monk's rolling around in his grave), if I'm being honest. You had the technique but never the discipline to play the changes correctly. Always rushing, always pushing ahead of the beat like you were trying to escape something.
+
+Nevertheless, you've earned your degree. I hope New York treats you well. Do try to apply yourself more diligently than you did in your counterpoint studies.
+
+Sincerely,
+Professor Albright
+
+&gt; What an asshole. Thank god that period of my life is over. Why would a professor vibe me like that, every day, in and out.
+
+      Jazz Dictionary:
+       Entry 283
+
+        Vibe (v), not to be confused with vibe (n)
+
+       To give someone bad vibes; to subtly undermine or disrespect a fellow musician through passive-aggressive behavior, audible sighs, whispered comments, or playing "correct" changes over someone's intentional substitutions. The jazz equivalent of throwing shade.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">look at mail</command>
+        <result xml:space="preserve">A rubber-banded stack: some official windows, some handwritten. You could open this pile. A pill bottle sits next to the stack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1405"></child>
+        </children>
+    </item>
+    <item nodeId="node-1405">
+        <command xml:space="preserve">open mail</command>
+        <result xml:space="preserve">You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, a ConEd envelope, and a stiff university envelope.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1406"></child>
+        </children>
+    </item>
+    <item nodeId="node-1406">
+        <command xml:space="preserve">open university envelope</command>
+        <result xml:space="preserve">You open the professor envelope, revealing a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1407"></child>
+        </children>
+    </item>
+    <item nodeId="node-1407">
+        <command xml:space="preserve">read letter</command>
+        <result xml:space="preserve">Dear Desmond,
+
+Congratulations on your graduation. I suppose four years is better than five, though I must admit I expected more consistent dedication from someone with your raw talent.
+
+Your senior recital was... adequate. That flubbed entrance in "Giant Steps" still haunts me, if I'm being honest. You had the technique but never the discipline to play the changes correctly. Always rushing, always pushing ahead of the beat like you were trying to escape something.
+
+Nevertheless, you've earned your degree. I hope New York treats you well. Do try to apply yourself more diligently than you did in your counterpoint studies.
+
+Sincerely,
+Professor Albright
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">leavw</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1395"></child>
+        </children>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1396"></child>
+        </children>
+    </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">exit apartment</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1397"></child>
+        </children>
+    </item>
+    <item nodeId="node-1397">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+        </children>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1399"></child>
+        </children>
+    </item>
+    <item nodeId="node-1399">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1400"></child>
+        </children>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">[type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1336"></child>
+        </children>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+        </children>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1363"></child>
+        </children>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+        </children>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1369"></child>
+        </children>
+    </item>
+    <item nodeId="node-1369">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1370"></child>
+        </children>
+    </item>
+    <item nodeId="node-1370">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1371"></child>
+        </children>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1372"></child>
+        </children>
+    </item>
+    <item nodeId="node-1372">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1373"></child>
+        </children>
+    </item>
+    <item nodeId="node-1373">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+        </children>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">zanswer</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. "Tall's. Late jam. You're coming."
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">"Good. Exhausted reads honest." A lighter flicks on her end. "One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math."
+
+
+1) "One tune gets me what, exactly?"
+2) "Not interested."
+3) "Walking into a jam cold sounds like a bad idea."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+        </children>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">(first getting off the phone nook)
+You step back from the wall phone.
+
+You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">leave the room</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">leave through the door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1383"></child>
+        </children>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">leave the room through the door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">go out the door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to go outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">go to the door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1386"></child>
+        </children>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">look door</command>
+        <result xml:space="preserve">You see nothing special about the door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+        </children>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">go downstairs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Forgetting something?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">leave apartment</command>
+        <result xml:space="preserve">Forgetting something?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">.</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1424"></child>
+        </children>
+    </item>
+    <item nodeId="node-1424">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1425"></child>
+        </children>
+    </item>
+    <item nodeId="node-1425">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1427"></child>
+        </children>
+    </item>
+    <item nodeId="node-1427">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1428"></child>
+        </children>
+    </item>
+    <item nodeId="node-1428">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1429"></child>
+        </children>
+    </item>
+    <item nodeId="node-1429">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1430"></child>
+        </children>
+    </item>
+    <item nodeId="node-1430">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1431"></child>
+        </children>
+    </item>
+    <item nodeId="node-1431">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1432"></child>
+        </children>
+    </item>
+    <item nodeId="node-1432">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1433"></child>
+        </children>
+    </item>
+    <item nodeId="node-1433">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1434"></child>
+        </children>
+    </item>
+    <item nodeId="node-1434">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1435"></child>
+        </children>
+    </item>
+    <item nodeId="node-1435">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1436"></child>
+        </children>
+    </item>
+    <item nodeId="node-1436">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1437"></child>
+        </children>
+    </item>
+    <item nodeId="node-1437">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1438"></child>
+        </children>
+    </item>
+    <item nodeId="node-1438">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1439"></child>
+        </children>
+    </item>
+    <item nodeId="node-1439">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1440"></child>
+        </children>
+    </item>
+    <item nodeId="node-1440">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1441"></child>
+        </children>
+    </item>
+    <item nodeId="node-1441">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1442"></child>
+        </children>
+    </item>
+    <item nodeId="node-1442">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1443"></child>
+        </children>
+    </item>
+    <item nodeId="node-1443">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1444"></child>
+        </children>
+    </item>
+    <item nodeId="node-1444">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1445"></child>
+        </children>
+    </item>
+    <item nodeId="node-1445">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1446"></child>
+        </children>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1447"></child>
+        </children>
+    </item>
+    <item nodeId="node-1447">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1448"></child>
+        </children>
+    </item>
+    <item nodeId="node-1448">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1449"></child>
+        </children>
+    </item>
+    <item nodeId="node-1449">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1450"></child>
+        </children>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1451"></child>
+        </children>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">answer</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. You can hear the faint hiss of street traffic behind her words. "Tall's. Late jam. You're coming." There's a pause filled with the sound of a lighter flicking, then an exhale.
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen." She takes another drag. "Kenji's on bass tonight. You remember Kenji - he was at that warehouse thing in Red Hook. Said you had decent time but your altissimo sounds like a dying cat."
+
+
+1) "What's your angle here?"
+2) "I'm not going."
+3) "Is this an open thing or do I need an in?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1454"></child>
+        </children>
+    </item>
+    <item nodeId="node-1454">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Because you have that freshly-graduated, "I'm unique" sound. That window closes in about six months." Traffic noise swells then fades. "Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently." Beat. "Marcus will be there. He books the Tuesday residency at Zinc." Another beat. "You know what a residency pays? It pays your ConEd bill, that's what."
+
+
+1) "What if I choke?"
+2) "What time?"
+3) "Who else is playing?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1455"></child>
+        </children>
+    </item>
+    <item nodeId="node-1455">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1456"></child>
+        </children>
+    </item>
+    <item nodeId="node-1456">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Forgetting something?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1457"></child>
+        </children>
+    </item>
+    <item nodeId="node-1457">
+        <command xml:space="preserve">take saxophone</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+            <child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">nexytt</command>
+        <result xml:space="preserve">[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">nrxt</command>
+        <result xml:space="preserve">[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">nezt</command>
+        <result xml:space="preserve">[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">It's been almost two months since I graduated. God, what did I think was going to happen when I moved to New York?
+
+"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!"
+
+[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">Stupid. That's stupid. And I'm talking to myself again.
+
+[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.
+
+[Press Enter or type NEXT.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+You can see a door, a couch, a saxophone, a guitar, a some bills and mail (closed) and a magazine here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">look couch</command>
+        <result xml:space="preserve">It's certainly seen better days, but still the best place to crash between gigs. Don't try to look between the cushions.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">look cushions</command>
+        <result xml:space="preserve">Dude. I told you not to look between the cushions. There's nothing here. Surprise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1140"></child>
+        </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">next</command>
+        <result xml:space="preserve">It's been almost two months since I graduated. God, what did I think was going to happen when I moved to New York?
+
+"Oh, hello, Desmond, it's me, Mr. Tall! Residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!".
+
+[Type next.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

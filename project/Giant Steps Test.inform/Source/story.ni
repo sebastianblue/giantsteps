@@ -6,6 +6,7 @@ Release along with a website.
 Release along with an interpreter.
 Include Basic Screen Effects by Emily Short.
 
+
 [ HELP ]
 Asking for help is an action out of world applying to nothing.
 Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
@@ -65,24 +66,37 @@ Before looking when Prologue-on is true: stop the action.
 To play the press-any-key prologue:
 	repeat with N running from 1 to the number of entries in Prologue pages:
 		say entry N of Prologue pages;
-		if N is the number of entries in Prologue pages:
+		[if N is the number of entries in Prologue pages:
 			say "[paragraph break][bracket]Press any key.[close bracket]";
 		otherwise:
-			say "[paragraph break][bracket]Press any key.[close bracket]";
+			say "[paragraph break]"[italic type]Deep breath.",";]
 		wait for any key;  [Basic Screen Effects]
 		[if N is not the number of entries in Prologue pages:
 			[clear the screen;  [Basic Screen Effects]]]
 
 When play begins:
 	now Prologue pages is {
-		"[italic type][bold type]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
+		"[italic type]Deep breath.[paragraph break][bracket]Press any key.[close bracket]",
+		"[italic type][paragraph break]In.",
+		"[italic type][paragraph break]Out.",
+		"[italic type][paragraph break]...",
+		"[italic type][paragraph break]Once more,",
+		"[italic type][paragraph break]In...",
+		"[italic type][paragraph break]and",
+		"[italic type][paragraph break]Out.",
+		"[italic type][paragraph break]A huge sound of applause, and then, as soon as you recognize it,",
+		"[italic type][paragraph break]silence.",
+		"[italic type][line break]Waiting.",
+		"[italic type][line break]Expecting.",
+		"[italic type][bold type][line break]Downbeat!",
+		"[italic type][bold type][paragraph break]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
 		"[italic type][paragraph break]It's been almost four months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?[paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Come have a residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'",
 		"[italic type][paragraph break]Stupid. That's stupid. And I'm talking to myself again.",
 		"[paragraph break]It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.[paragraph break][roman type]You put a record on your tiny Audio Technica turntable in the corner of your place. Jazz floods the room."
 	};
 	play the press-any-key prologue;
 	now Prologue-on is false;
-	clear the screen; 
+	clear the screen;
 	carry out the printing the banner text activity;  [show the standard banner now]
 
 [[ ==================== PROLOGUE: old-card intro ==================== ]
@@ -303,6 +317,11 @@ An instrument-thing is a kind of thing.
 The saxophone is scenery and an instrument-thing in the Studio.
 Understand "sax/saxophone/horn/selmer" as the saxophone.
 The description is "[italic type]I remember when dad gave me this horn. I was just old enough to save all my lunch money to buy a beginner Yamaha horn, anything would have been better than the school model. [paragraph break]When I got home from my last day of 11th grade, he had a shit-eating grin on his face. He was waiting for me to work hard enough to prove I wanted a nicer sax, and then he gave me his Selmer. What an asshole. Can't be too mad.[paragraph break][roman type]It's a beautiful horn. The tone on these early Mark VIs are usually pretty dark, but for some reason, this one sounds like spring when you play it. You can't help but think there must have been a scheme of his at play—because you can't help but think of him every time you hear the sound of this horn. It reminds you of being 12, and hearing dad play in the other room with his trio."
+
+Instead of taking the saxophone when the saxophone is scenery:
+	now the saxophone is not scenery;
+	now the saxophone is not fixed in place;
+	continue the action;
 
 The guitar is scenery and an instrument-thing in the Studio.
 The description is "This guitar just showed up in your life. It's not super clear where you got it, and you can't really play it that well. Jake, your first roommate, loved playing it for girls when they came over. That's the most action the guitar's seen. Besides the neck action (Yes, that's a joke about guitar luthiery). A stack of burned CDs leans against the case."
@@ -555,11 +574,11 @@ In-call is a truth state that varies. In-call is false.
 Call-stage is a number that varies. Call-stage is 0.
 Invited-to-Talls is a truth state that varies. Invited-to-Talls is false.
 
-[ Start the call once the player answers while it’s ringing. ]
+[ Start the call once the player answers while it's ringing. ]
 To begin the call:
 	now in-call is true;
 	now call-stage is 1;
-	say "'It's Rena.' Not a question. The voice carries last night's cigarettes and this morning's coffee. 'Tall's. Late jam. You're coming.'";
+	say "'It's Rena.' Not a question. The voice carries last night's cigarettes and this morning's coffee. You can hear the faint hiss of street traffic behind her words. 'Tall's. Late jam. You're coming.' There's a pause filled with the sound of a lighter flicking, then an exhale.";
 	say "[paragraph break][bold type]1[roman type]) 'Am I? Tell me why.'[line break][bold type]2[roman type]) 'Tonight? I'm destroyed.'[line break][bold type]3[roman type]) 'Rena who?'";
 	say "[paragraph break][bracket]Type 1, 2, or 3.[close bracket]".
 
@@ -570,28 +589,43 @@ Understand "[number]" as choosing when in-call is true.
 Instead of choosing:
 	if call-stage is 1:
 		if the number understood is 1:
-			say "'Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen.'";
+			say "'Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen.' She takes another drag. 'Kenji's on bass tonight. You remember Kenji - he was at that warehouse thing in Red Hook. Said you had decent time but your altissimo sounds like a dying cat.'";
 			say "[paragraph break][bold type]1[roman type]) 'What's your angle here?'[line break][bold type]2[roman type]) 'I'm not going.'[line break][bold type]3[roman type]) 'Is this an open thing or do I need an in?'";
 			now call-stage is 2;
 		else if the number understood is 2:
-			say "'Good. Exhausted reads honest.' A lighter flicks on her end. 'One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math.'";
+			say "'Good. Exhausted reads honest.' A bus sighs past on her end. 'One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math.' She pauses. 'And before you ask - no, I'm not getting anything out of this except maybe seeing you not completely waste whatever talent you haven't drunk away yet.'";
 			say "[paragraph break][bold type]1[roman type]) 'One tune gets me what, exactly?'[line break][bold type]2[roman type]) 'Not interested.'[line break][bold type]3[roman type]) 'Walking into a jam cold sounds like a bad idea.'";
 			now call-stage is 2;
 		else if the number understood is 3:
-			say "'Rena. I drove you back from that warehouse thing in Red Hook. You fell asleep holding your horn case.' Dry laugh. 'Anyway. Tall's tonight. Jam. I told Kenji you don't suck. Don't make me a liar.'";
+			say "'Rena. I drove you back from that warehouse thing in Red Hook. You fell asleep holding your horn case and woke up talking about your dad's old Selmer.' A dry, almost-laugh. 'Tall's tonight. Jam. I told Kenji you don't completely suck. Don't make me a liar.' You hear glass clinking, like she's setting down a coffee cup.";
 			say "[paragraph break][bold type]1[roman type]) 'Why'd you tell him that?'[line break][bold type]2[roman type]) 'Maybe. Probably not.'[line break][bold type]3[roman type]) 'I don't know their repertoire.'";
 			now call-stage is 2;
 		else:
 			say "Pick 1, 2, or 3.";
 	else if call-stage is 2:
 		if the number understood is 1:
-			say "'Because you don't sound like you're quoting anyone yet. That window closes.' Traffic noise, a siren. 'Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently.' Beat. 'Ludlow. Red door. Downstairs.'";
+			say "'Because you have that freshly-graduated, 'I'm unique' sound. That window closes in about six months.' Traffic noise swells then fades. 'Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently.' Beat. 'Marcus will be there. He books the Tuesday residency at Zinc.' Another beat. 'You know what a residency pays? It pays your ConEd bill, that's what.'";
+			say "[paragraph break][bold type]1[roman type]) 'What if I choke?'[line break][bold type]2[roman type]) 'What time?'[line break][bold type]3[roman type]) 'Who else is playing?'";
+			now call-stage is 3;
+		else if the number understood is 2:
+			say "'Yeah you are. Play tired. Chet Baker made a career out of it.' Her voice gets an edge. 'Three minutes. In and out. Tall's cares if you improved the last eight bars, not if you're chipper about it.' Not asking anymore. 'Look, I'm doing this once. Next time you're on your own.' You hear her take a long drag. 'You want to be playing weddings in Jersey? Keep making excuses.''Marcus will be there. He books the Tuesday residency at Zinc.' Another beat. 'You know what a residency pays? It pays your ConEd bill, that's what.'";
+			say "[paragraph break][bold type]1[roman type]) 'What if I choke?'[line break][bold type]2[roman type]) 'What time?'[line break][bold type]3[roman type]) 'Who else is playing?'";
+			now call-stage is 3;
+		else if the number understood is 3:
+			say "'It's a session, not a dissertation defense. 'Confirmation' if you want respect, 'Autumn Leaves' if you want to actually play. Play the head, don't rush, like you do sometimes. The form will do the work.' A short laugh. 'Or play 'Epistrophe' and watch everyone hate you. Your choice.' She already assumes you're showing.'Marcus will be there. He books the Tuesday residency at Zinc.' Another beat. 'You know what a residency pays? It pays your ConEd bill, that's what.'";
+			say "[paragraph break][bold type]1[roman type]) 'What if I choke?'[line break][bold type]2[roman type]) 'What time?'[line break][bold type]3[roman type]) 'Who else is playing?'";
+			now call-stage is 3;
+		else:
+			say "Pick 1, 2, or 3.";
+	else if call-stage is 3:
+		if the number understood is 1:
+			say "'Then you choke. Welcome to jazz.' Her tone softens slightly. 'Look, everyone chokes. The difference is whether you come back next week. Parker choked. Coltrane choked. Hell, I saw Herbie forget the changes to 'Chameleon' once.'[paragraph break]'Just don't make a thing of it. Smile, nod, buy the bass player a drink.'";
 			complete-the-call;
 		else if the number understood is 2:
-			say "'Yeah you are. Play tired. Chet Baker made a career out of it.' Her voice gets an edge. 'Three minutes. In and out. Tall's cares if you improved the last eight bars, not if you're chipper about it.' Not asking anymore. 'Red door. Ludlow. Basement. Tonight.'";
+			say "'Starts at eleven, but don't show up before midnight unless you want to watch undergrads play 'So What' for two hours. Horns usually get called around one. Also dude, Sarah will be there. You might learn a thing or two from her—both on her horn and off, if you know what I'm saying.' She cackles, and crushes something - probably her cigarette. 'And don't be that guy who shows up at three when everyone's packed up. That's just sad.'";
 			complete-the-call;
 		else if the number understood is 3:
-			say "'It's a session, not a dissertation defense. Bring a head in Bb. 'Confirmation' if you want respect, 'Autumn Leaves' if you want to actually play. State the melody, don't rush, let the bass walk. The form does the work.' A short laugh. 'Tall's. Ludlow. Red basement door. Tonight.' She already assumes you're showing.";
+			say "'House trio: Kenji on bass, some Berklee kid on piano who's actually decent, and old man Henderson on drums if he's sober.' A door creaks open on her end. 'Sarah might sit in on alto - she just got back from touring Europe, sounds incredible. And she was asking about you.' Dry laugh. 'Actually, do stand next to her. Might learn something.'";
 			complete-the-call;
 		else:
 			say "Pick 1, 2, or 3.".
@@ -600,7 +634,7 @@ To complete-the-call:
 	now Invited-to-Talls is true;
 	now in-call is false;
 	now call-stage is 0;
-	say "[paragraph break]You start to ask which block on Ludlow, is there a sign, what train to take—click. Line goes dead. She figured you'd either know or figure it out. You start to feel the anxiety creep in. That same old anxiety from college jam sessions in practice rooms at 4am.[paragraph break][bracket]press any key[close bracket]";
+	say "[paragraph break]You start to ask which block on Ludlow, is there a sign, what train to take, should you bring your own music stand—click. Line goes dead. She figured you'd either know or figure it out. The dial tone hums in your ear like a wrong note held too long.[paragraph break][bracket]press any key[close bracket]";
 	wait for any key;
 	play the post-call-panic.
 

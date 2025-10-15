@@ -7,7 +7,7 @@ Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
 756 Preform nonterminals read from /Volumes/Inform/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform
-I've now read your source text, which is 6792 words long.
+I've now read your source text, which is 7365 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
@@ -43,7 +43,7 @@ Loading kinds definitions from /Volumes/Inform/Inform.app/Contents/Resources/Int
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 8cs
+.... MajorNodes__pre_pass() took 9cs
 
 
 -----------------------------------------------------
@@ -117,7 +117,7 @@ Phase XII ... Generating inter (2)
 Phase XIII ... Generating inter (3)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 77cs
+.... Sequence__undertake_queued_tasks() took 81cs
 .... RTPhrasebook__compile_entries() took 5cs
 
 
@@ -154,7 +154,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 117 centiseconds
+Compile CPU time: 122 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -199,12 +199,12 @@ Compile CPU time: 117 centiseconds
 
 ==== Phase XVII.11 ... step 11/15: eliminate-redundant-labels ====
 
-2019 redundant label(s) removed
+2055 redundant label(s) removed
 
 
 ==== Phase XVII.12 ... step 12/15: eliminate-redundant-operations ====
 
-457 redundant operation(s) removed
+459 redundant operation(s) removed
 
 
 ==== Phase XVII.13 ... step 13/15: optionally-generate text ->  ====
