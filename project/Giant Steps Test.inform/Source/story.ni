@@ -4,12 +4,13 @@
 
 Release along with a website.
 Release along with an interpreter.
+Include Basic Screen Effects by Emily Short.
 
 [ HELP ]
 Asking for help is an action out of world applying to nothing.
 Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
 Carry out asking for help:
-	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings; during calls, type 1/2/3 or HANG UP[line break]• LEAVE or GO WEST — head out (only after you have somewhere to go)".
+	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings; • LEAVE or GO WEST — head out (only after you have somewhere to go)".
 
 [ Let READ be a synonym for EXAMINE ]
 Understand "read [something]" as examining.
@@ -32,7 +33,7 @@ Release along with an interpreter.
 [ HELP ]
 Understand "help" or "about" or "how to play" or "tutorial" as asking for help.
 Carry out asking for help:
-	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings; during calls, type 1/2/3 or HANG UP[line break]• LEAVE or GO WEST — head out (only after you have somewhere to go)".
+	say "[bold type]How to play (quick)[roman type][paragraph break]Try short, simple commands.[line break]• LOOK (or L) — refresh the room view[line break]• EXAMINE (or X) things — e.g., X MAGAZINE, X PAGES[line break]• OPEN/CLOSE/TAKE/READ[line break]• PLAY SAXOPHONE / PLAY GUITAR[line break]• NEXT / PREVIOUS — flip the magazine[line break]• DIAL 555-0199 (from the wall phone)[line break]• ANSWER PHONE when it rings;[line break]• LEAVE or GO WEST — head out (only after you have somewhere to go)".
 
 [ Let READ be a synonym for EXAMINE ]
 Understand "read [something]" as examining.
@@ -49,7 +50,42 @@ To decide what text is normalized (T - text):
 	replace the text "." in U with "";
 	decide on U.
 
-[ ==================== PROLOGUE: multi-card intro ==================== ]
+[ ==================== PROLOGUE: press-any-key version ==================== ]
+
+Prologue-on is a truth state that varies. Prologue-on is true.
+Prologue pages is a list of text that varies.
+
+[ Hide the standard banner while the prologue is active ]
+Rule for printing the banner text when Prologue-on is true: rule succeeds.
+
+[ Suppress the auto LOOK until we finish the prologue ]
+Before looking when Prologue-on is true: stop the action.
+
+[ One routine that shows each card, waits for a key, and clears between pages ]
+To play the press-any-key prologue:
+	repeat with N running from 1 to the number of entries in Prologue pages:
+		say entry N of Prologue pages;
+		if N is the number of entries in Prologue pages:
+			say "[paragraph break][bracket]Press any key.[close bracket]";
+		otherwise:
+			say "[paragraph break][bracket]Press any key.[close bracket]";
+		wait for any key;  [Basic Screen Effects]
+		[if N is not the number of entries in Prologue pages:
+			[clear the screen;  [Basic Screen Effects]]]
+
+When play begins:
+	now Prologue pages is {
+		"[italic type][bold type]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
+		"[italic type][paragraph break]It's been almost four months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?[paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Come have a residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'",
+		"[italic type][paragraph break]Stupid. That's stupid. And I'm talking to myself again.",
+		"[paragraph break]It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.[paragraph break][roman type]You put a record on your tiny Audio Technica turntable in the corner of your place. Jazz floods the room."
+	};
+	play the press-any-key prologue;
+	now Prologue-on is false;
+	clear the screen; 
+	carry out the printing the banner text activity;  [show the standard banner now]
+
+[[ ==================== PROLOGUE: old-card intro ==================== ]
 
 Prologue-on is a truth state that varies. Prologue-on is true.
 Prologue pages is a list of text that varies.
@@ -95,13 +131,13 @@ After reading a command when Prologue-on is true:
 		advance the prologue;
 		reject the player's command;
 	say "[bracket]type next.[close bracket]";
-	reject the player's command.
+	reject the player's command.]
 
 [==================== THE APARTMENT ====================]
 
-The Studio is a room. "[paragraph break][roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly. [paragraph break]Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—and the apartment door to the west."
+The Studio is a room. "[roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. [paragraph break]Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—and the apartment door to the west."
 
-[==================== WEST DOOR + HALLWAY ====================]
+[==================== WEST DOOR + HALLWAY (fixed grammar) ====================]
 
 The Hallway is a room. "Dim, echoey. Stairs down to the street, smell of dust and last night's takeout."
 
@@ -113,20 +149,51 @@ Understand "front door/door/out" as the apartment door.
 Instead of opening the apartment door when invited-to-talls is false:
 	say "You put a hand on the knob and stop. [italic type]You shouldn't leave if you have nowhere to go.[roman type]";
 
-[ Map LEAVE to going west ]
+[ ---- Flexible 'leave' language routes to WEST (no bracketed tokens) ---- ]
 Leaving is an action applying to nothing.
-Understand "leave" or "go out" or "head out" or "exit apartment" as leaving.
+Understand "leave" or "go out" or "go outside" or "head out" or "exit apartment" or "exit" as leaving.
+Understand "leave the room" as leaving.
+Understand "leave the apartment" as leaving.
+Understand "leave through the door" as leaving.
+Understand "go out the door" as leaving.
+Understand "go out through the door" as leaving.
 Carry out leaving: try going west.
 
-[ Gate the exit: need an invite, then need the horn; otherwise kick to subway picker ]
-Before going west from the Studio:
+[ Let 'EXIT' behave like leaving when you're in the Studio ]
+Instead of exiting when the location is the Studio:
+	try going west.
+
+[ 'Go to the door' convenience ]
+Going-to-door is an action applying to nothing.
+Understand "go to door" or "go to the door" or "approach door" or "approach the door"
+	or "walk to door" or "walk to the door" as going-to-door.
+Carry out going-to-door:
+	try going west.
+
+[ ---- DOWN handling ---- ]
+Understand "downstairs" as down.
+Understand "go downstairs" or "head downstairs" as going.
+
+[ From the Studio, DOWN = head toward the door ]
+Instead of going down from the Studio:
+	try going west.
+
+[ ---- Gate WEST out of the Studio (invite + horn) ---- ]
+Check going west from the Studio:
 	if invited-to-talls is false:
 		say "[italic type]You shouldn't leave if you have nowhere to go.[roman type] Maybe figure out your night first, bro. Are you gonna do something, or wimp out and stay here and watch Sex and the City again?" instead;
 	if the player does not carry the saxophone:
 		say "Forgetting something?" instead;
-	[ You’re invited and carrying your horn: launch the subway picker ]
+
+[ From the Hallway, DOWN launches the subway picker (same gates) ]
+Instead of going down from the Hallway:
+	if invited-to-talls is false:
+		say "[italic type]You shouldn't leave if you have nowhere to go.[roman type] Maybe figure out your night first, bro." instead;
+	if the player does not carry the saxophone:
+		say "Forgetting something?" instead;
 	begin subway-choose;
 	stop the action.
+
 
 [==================== RECORD PLAYER + RECORDS (Backyard is playing) ====================]
 
@@ -235,7 +302,7 @@ An instrument-thing is a kind of thing.
 
 The saxophone is scenery and an instrument-thing in the Studio.
 Understand "sax/saxophone/horn/selmer" as the saxophone.
-The description is "[italic type]I remember when dad gave me this horn. I was just old enough to save all my lunch money to buy a beginner Yamaha horn, anything would have been better than the school model. [line break]When I got home from my last day of 11th grade, he had a shit-eating grin on his face. He was waiting for me to work hard enough to prove I wanted a nicer sax, and then he gave me his Selmer. What an asshole. Can't be too mad.[roman type] Your four-track is parked nearby—do you think it likes hearing you practice long tones all day?"
+The description is "[italic type]I remember when dad gave me this horn. I was just old enough to save all my lunch money to buy a beginner Yamaha horn, anything would have been better than the school model. [paragraph break]When I got home from my last day of 11th grade, he had a shit-eating grin on his face. He was waiting for me to work hard enough to prove I wanted a nicer sax, and then he gave me his Selmer. What an asshole. Can't be too mad.[paragraph break][roman type]It's a beautiful horn. The tone on these early Mark VIs are usually pretty dark, but for some reason, this one sounds like spring when you play it. You can't help but think there must have been a scheme of his at play—because you can't help but think of him every time you hear the sound of this horn. It reminds you of being 12, and hearing dad play in the other room with his trio."
 
 The guitar is scenery and an instrument-thing in the Studio.
 The description is "This guitar just showed up in your life. It's not super clear where you got it, and you can't really play it that well. Jake, your first roommate, loved playing it for girls when they came over. That's the most action the guitar's seen. Besides the neck action (Yes, that's a joke about guitar luthiery). A stack of burned CDs leans against the case."
@@ -254,6 +321,38 @@ Carry out playing:
 		say "Wow, thank god you still remember your phrygian scales. Everyone was really worried whether you'd remember if there was an E natural in a Db phrygian scale. A huge round of applause when you hit it. Just kidding, there's nobody else here.";
 	otherwise:
 		say "A gentle pattern, thumb and nail. The room exhales."
+		
+[==================== ANXIETY MEDS + THERAPIST ====================]
+
+[ Empty anxiety meds bottle — players will inevitably try “take pill” etc. ]
+The orange pill bottle is scenery and a closed openable container in the Studio.
+The printed name is "orange pill bottle".
+Understand "meds/pills/xanax/klonopin/benzo/benzos/bottle/prescription/medication" as the orange pill bottle.
+The description is "Orange pharmacy bottle, white childproof cap, your name half-scratched off. You shake it: [italic type]no rattle[roman type]. Empty since last week. A card for your therapist sits nearby."
+
+Instead of opening the orange pill bottle:
+	say "You twist, push, swear. You already know it's empty."
+
+[ Let “take pill/meds” read as an intentional (but failed) choice. ]
+Self-medicating is an action applying to nothing.
+Understand "take pill" or "take pills" or "take meds" or "swallow pill" or "swallow pills" or "pop a pill" as self-medicating.
+Carry out self-medicating:
+	say "You tip the bottle and hope it changed its mind. Nothing. Just dry plastic and the kind of silence that gets louder."
+
+[ If your counter is a supporter, you can display it there. Uncomment this if so. ]
+[ The orange pill bottle is on the counter. ]
+
+[ Therapist’s card lives near the phone so players see DIAL prompt vibes. ]
+The therapist card is scenery.
+The printed name is "therapist's card".
+Understand "card/business card/therapist/dr/doctor/levy" as the therapist card.
+The description is "DR. LEVY, LCSW — [bold type]555-0183[roman type]. 'Sliding scale. Call, don't email.' A crease down the middle suggests you've practiced not calling."
+
+[ Quality-of-life: “call/dial therapist” just works. ]
+Calling-therapist is an action applying to nothing.
+Understand "call therapist" or "dial therapist" as calling-therapist.
+Carry out calling-therapist:
+	try dialing "Dr. Levy".
 
 [==================== KITCHEN ====================]
 
@@ -290,7 +389,7 @@ Before taking something (called loot) when loot is in the cabinet and the cabine
 
 The fridge is a closed openable container.
 It is part of the kitchen.
-The description is "When you were visiting apartments with your mom and... Doug, you almost started weeping when you entered this one. It was the first one with a fridge. Beautiful stainless steel, the sheen on the outside matches the frigidity inside. But, no freezer. Alas. The fridge magnets are trying to class it up."
+The description is "When you were visiting apartments with your mom and her...uh...Doug... You almost started weeping when you entered this one. It was the first one with a fridge. Beautiful stainless steel, the sheen on the outside matches the frigidity inside. But, no freezer. Alas. The fridge magnets are trying to class it up."
 
 A half lemon is in the fridge.
 Understand "lemon/half" as the half lemon.
@@ -323,13 +422,20 @@ The description is "Half a lemon, a heroic jar of pickles, and two takeout boxes
 The mail-bills is scenery and a closed openable container in the Studio.
 The printed name is "some bills and mail".
 Understand "bills" or "mail" or "stack" or "pile" or "envelopes" or "letters" as the mail-bills.
-The description is "A rubber-banded stack: some official windows, some handwritten. You could OPEN it."
+The description is "A rubber-banded stack: some official windows, some handwritten. You could open this pile. A pill bottle sits next to the stack."
 Before taking something (called doc) when doc is in the mail-bills and the mail-bills is closed:
 	say "You'll need to open the stack first." instead.
 Instead of searching the mail-bills when the mail-bills is closed:
 	say "Maybe start by opening the stack."
 After opening the mail-bills:
-	say "You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, and a ConEd envelope."
+	say "You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, a ConEd envelope, and a stiff [bold type]university envelope.[roman type]";
+
+The professor envelope is a closed openable container in the mail-bills.
+Understand "professor" or "university" or "college" or "school" or "old professor" as the professor envelope.
+The description of the professor envelope is "Crisp university stationery. The return address is from the music department. Smells like regret and toner."
+A professor letter is in the professor envelope. The professor letter is portable.
+The description of the professor letter is 
+	"[italic type]Dear Desmond,[paragraph break]Congratulations on your graduation. I suppose four years is better than five, though I must admit I expected more consistent dedication from someone with your raw talent.[paragraph break]Your senior recital was... adequate. That flubbed entrance in 'Epistrophe' still haunts me (Monk's rolling around in his grave), if I'm being honest. You had the technique but never the discipline to play the changes correctly. Always rushing, always pushing ahead of the beat like you were trying to escape something.[paragraph break]Nevertheless, you've earned your degree. I hope New York treats you well. Do try to apply yourself more diligently than you did in your counterpoint studies.[paragraph break]Sincerely,[line break]Professor Albright[paragraph break]>[italic type] What an asshole. Thank god that period of my life is over. Why would a professor vibe me like that, every day, in and out.[paragraph break][roman type]> Jazz Dictionary:[line break]> Entry 283[paragraph break]> [italic type]Vibe (v), not to be confused with vibe (n)[roman type][paragraph break]       To give someone bad vibes; to subtly undermine or disrespect a fellow musician through passive-aggressive behavior, audible sighs, whispered comments, or playing 'correct' changes over someone's intentional substitutions. The jazz equivalent of throwing shade.".
 
 The friendly envelope is a closed openable container in the mail-bills.
 Understand "friendly" or "handwritten" as the friendly envelope.
@@ -399,28 +505,36 @@ Carry out flipping-prev:
 		decrement current page;
 	say "[show-page]".
 
-The jazz-ad is scenery. The jazz-ad is part of the pages. The printed name is "ad for Tall's Jazz Club".
-Understand "ad/ads/advertisement/advertisements/adverts/tall/tall's/jazz/club" as the jazz-ad.
-The description of the jazz-ad is "TALL'S JAZZ CLUB — TONIGHT: Late Set Jam. Bring a horn. First drink on the house if you can play in Bb. [italic type]184 Ludlow, basement.[roman type]"
 
-[==================== PHONE + CALL ====================]
+[==================== PHONE, DIALING, & CALL (consolidated, drop-in) ====================]
+[ Assumes: Include Basic Screen Effects by Emily Short is already included near the top. ]
+[ Also assumes you already have your normalized(text) phrase elsewhere. ]
 
-The wall phone is scenery in the Studio. Understand "phone/telephone/receiver" as the wall phone.
-The description of the wall phone is "An honest-to-goodness wall phone with a coiled cord. Old-fashioned, but it never asks for an update[if phone-ringing is true]. It's ringing[end if]."
+"Phone & Call System"
+
+[--- Objects ---]
+The wall phone is scenery in the Studio.
+Understand "phone/telephone/receiver" as the wall phone.
+The description of the wall phone is
+	"An honest-to-goodness wall phone with a coiled cord. Old-fashioned, but it never asks for an update[if phone-ringing is true]. It's ringing[end if].".
+
 The dial pad is part of the wall phone. The printed name is "wall phone close-up".
-Understand "pad/dial/keys/close-up/close up" as the dial pad. The description of the dial pad is "Numbers that promise connection, if you know who to call."
+Understand "pad/dial/keys/close-up/close up" as the dial pad.
+The description of the dial pad is "Numbers that promise connection, if you know who to call.".
 
-Phone-rung is a truth state that varies. Phone-rung is false. Phone-ringing is a truth state that varies. Phone-ringing is false.
+The phone nook is an enterable supporter in the Studio. It is scenery and fixed in place.
+The description is "Right under the wall phone—the perfect spot to lean while you dial.".
+
+[--- Ring timing ---]
+Phone-rung is a truth state that varies. Phone-rung is false.
+Phone-ringing is a truth state that varies. Phone-ringing is false.
 
 Every turn when the turn count is 15 and phone-rung is false:
 	now phone-rung is true;
 	now phone-ringing is true;
 	say "[bold type]*BRRRRING*[roman type] The wall phone bursts to life. ([italic type]ANSWER PHONE[roman type] to pick up.)".
 
-[ Proximity: must be at the phone to dial ]
-The phone nook is an enterable supporter in the Studio. It is scenery and fixed in place.
-The description is "Right under the wall phone—the perfect spot to lean while you dial."
-
+[--- QoL: approaching the phone ---]
 Approaching-phone is an action applying to nothing.
 Understand "go to phone" or "go to the phone" or "go to wall phone" or
 	"use phone" or "stand by phone" or "stand at phone" or "approach phone" as approaching-phone.
@@ -433,62 +547,150 @@ Carry out approaching-phone:
 		say "You step up to the wall phone.".
 
 Instead of entering the wall phone: try approaching-phone.
+Instead of taking the wall phone: say "Bolted into the past and the drywall.";
 
-[ Answering / hanging up ]
-Picking up is an action applying to one thing.
-Understand "answer [something]" or "pick up [something]" as picking up.
+[==================== CALL FLOW ====================]
 
-Check picking up:
-	if the noun is not the wall phone:
-		say "You can't answer that." instead.
+In-call is a truth state that varies. In-call is false.
+Call-stage is a number that varies. Call-stage is 0.
+Invited-to-Talls is a truth state that varies. Invited-to-Talls is false.
 
-Before picking up the wall phone when the player is not on the phone nook:
-	silently try entering the phone nook.
+[ Start the call once the player answers while it’s ringing. ]
+To begin the call:
+	now in-call is true;
+	now call-stage is 1;
+	say "'It's Rena.' Not a question. The voice carries last night's cigarettes and this morning's coffee. 'Tall's. Late jam. You're coming.'";
+	say "[paragraph break][bold type]1[roman type]) 'Am I? Tell me why.'[line break][bold type]2[roman type]) 'Tonight? I'm destroyed.'[line break][bold type]3[roman type]) 'Rena who?'";
+	say "[paragraph break][bracket]Type 1, 2, or 3.[close bracket]".
 
-Carry out picking up:
+[ Numeric choice handler for the whole phone tree. ]
+Choosing is an action applying to one number.
+Understand "[number]" as choosing when in-call is true.
+
+Instead of choosing:
+	if call-stage is 1:
+		if the number understood is 1:
+			say "'Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen.'";
+			say "[paragraph break][bold type]1[roman type]) 'What's your angle here?'[line break][bold type]2[roman type]) 'I'm not going.'[line break][bold type]3[roman type]) 'Is this an open thing or do I need an in?'";
+			now call-stage is 2;
+		else if the number understood is 2:
+			say "'Good. Exhausted reads honest.' A lighter flicks on her end. 'One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math.'";
+			say "[paragraph break][bold type]1[roman type]) 'One tune gets me what, exactly?'[line break][bold type]2[roman type]) 'Not interested.'[line break][bold type]3[roman type]) 'Walking into a jam cold sounds like a bad idea.'";
+			now call-stage is 2;
+		else if the number understood is 3:
+			say "'Rena. I drove you back from that warehouse thing in Red Hook. You fell asleep holding your horn case.' Dry laugh. 'Anyway. Tall's tonight. Jam. I told Kenji you don't suck. Don't make me a liar.'";
+			say "[paragraph break][bold type]1[roman type]) 'Why'd you tell him that?'[line break][bold type]2[roman type]) 'Maybe. Probably not.'[line break][bold type]3[roman type]) 'I don't know their repertoire.'";
+			now call-stage is 2;
+		else:
+			say "Pick 1, 2, or 3.";
+	else if call-stage is 2:
+		if the number understood is 1:
+			say "'Because you don't sound like you're quoting anyone yet. That window closes.' Traffic noise, a siren. 'Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently.' Beat. 'Ludlow. Red door. Downstairs.'";
+			complete-the-call;
+		else if the number understood is 2:
+			say "'Yeah you are. Play tired. Chet Baker made a career out of it.' Her voice gets an edge. 'Three minutes. In and out. Tall's cares if you improved the last eight bars, not if you're chipper about it.' Not asking anymore. 'Red door. Ludlow. Basement. Tonight.'";
+			complete-the-call;
+		else if the number understood is 3:
+			say "'It's a session, not a dissertation defense. Bring a head in Bb. 'Confirmation' if you want respect, 'Autumn Leaves' if you want to actually play. State the melody, don't rush, let the bass walk. The form does the work.' A short laugh. 'Tall's. Ludlow. Red basement door. Tonight.' She already assumes you're showing.";
+			complete-the-call;
+		else:
+			say "Pick 1, 2, or 3.".
+
+To complete-the-call:
+	now Invited-to-Talls is true;
+	now in-call is false;
+	now call-stage is 0;
+	say "[paragraph break]You start to ask which block on Ludlow, is there a sign, what train to take—click. Line goes dead. She figured you'd either know or figure it out. You start to feel the anxiety creep in. That same old anxiety from college jam sessions in practice rooms at 4am.[paragraph break][bracket]press any key[close bracket]";
+	wait for any key;
+	play the post-call-panic.
+
+[ Gate other commands while on the call. ]
+Before doing something when in-call is true:
+	if the current action is choosing or the current action is asking for help or the current action is ending-call:
+		continue the action;
+	otherwise:
+		say "You're on the phone. Choose [bold type]1–3[roman type].";
+		stop the action.
+
+[==================== Answer / Hang Up (custom verbs to avoid SR conflicts) ====================]
+
+Answering-call is an action applying to nothing.
+Understand "answer" or "answer phone" or "answer the phone" as answering-call.
+Understand "pick up phone" or "pick up the phone" as answering-call.
+
+Carry out answering-call:
+	if the player is not on the phone nook:
+		silently try entering the phone nook;
 	if phone-ringing is false:
 		say "You lift the receiver. Dial tone, then the sound of your own breathing.";
 	else:
 		now phone-ringing is false;
 		begin the call.
 
-Answering is an action applying to nothing.
-Understand "answer" or "answer phone" or "answer the phone" as answering.
+Instead of taking the wall phone:
+	try answering-call.
 
-Carry out answering:
-	if the player is not on the phone nook:
-		silently try entering the phone nook;
-	try picking up the wall phone.
+Ending-call is an action out of world applying to nothing.
+Understand "hang up" or "hang up phone" or "end call" or "put down phone" as ending-call.
 
-
-Hanging up is an action out of world applying to nothing.
-Understand "hang up" or "hang up phone" or "end call" as hanging up.
-Carry out hanging up:
+Carry out ending-call:
 	if in-call is false:
 		say "You place your hand on the hook, out of habit. No one to disappoint but the dial tone.";
 	else:
 		now in-call is false;
 		now call-stage is 0;
-		say "You return the receiver. A soft click, a louder room."
+		say "You return the receiver. A soft click, a louder room.".
 
-[ Dialing ]
+[==================== Post-call panic beat ====================]
+
+To play the post-call-panic:
+	say "[paragraph break]fuck[paragraph break][paragraph break]";
+	wait for any key;  [Basic Screen Effects]
+	say "[paragraph break]fuck[paragraph break]fuck[paragraph break]fuck";
+	wait for any key;  [Basic Screen Effects]
+	say "[paragraph break]fuck[line break]fuck[line break]fuck[line break]fuck[line break]fuck[line break]fuck[line break]fuck[line break]fuck[line break]fuck";
+	wait for any key;  [Basic Screen Effects]
+	say "[paragraph break]You start to feel your heart beat."; 
+	wait for any key;
+	say "[paragraph break][italic type]'Why, why why, why would I agree to this?'[roman type]";
+	wait for any key;
+	say "[paragraph break][bold type]fuck[line break]fuck[line break]fuck[line break]fuck[line break].";
+	wait for any key;
+	say "[paragraph break]You take a deep breath";
+	wait for any key;
+	say "[paragraph break]in,";
+	wait for any key;
+	say "[paragraph break]and out.";
+	wait for any key;
+	say "...";
+	wait for any key;
+	say "[paragraph break][roman type][italic type]Well, I suppose I'd better figure out how to get there.".
+
+[==================== Dialing & Phonebook ====================]
+
 Dialing is an action applying to one topic.
 Understand "dial [text]" or "call [text]" as dialing.
+
 Check dialing when the player is not on the phone nook:
 	say "You reach for where a cell *would* be. The wall phone's across the room—try [italic type]GO TO PHONE[roman type] first." instead.
+
 Before dialing when in-call is true:
 	say "You're already on a call. (Type HANG UP to end it.)" instead.
 
-[ Phonebook (define before we use it) ]
 Table of Phonebook
 name (text)	number (text)	response (text)
-"Pizza Planet"	"555-0199"	"[paragraph break]A cheerful voice: 'Pizza Planet! Specials after midnight: two toppings for the price of regret.' A dry, angry voice then picks up: 'What the hell do you want?' a click."
+"Pizza Planet"	"555-0199"	"[paragraph break]A cheerful voice: 'Pizza Planet! Specials after midnight: two toppings for the price of regret.' A dry, angry voice then picks up: 'What the hell do you want?' A click."
 "Yellow Cab"	"555-0129"	"[paragraph break]A drone: 'All dispatchers busy. Please hold.' You are treated to two bars of hold music and a click."
 "Kite Studios"	"555-0145"	"[paragraph break]'Kite Studios—lockouts tonight are booked, but noon is open. Bring earplugs.'"
 "Mr. Lin"	"555-0177"	"[paragraph break]'Workshop.' (Silence.) Then: 'Leave message. I fix horns, not people.' Beep. Click."
 "Amp Doctor"	"555-0158"	"[paragraph break]Voicemail: 'Drop-offs 10–6. If it hums, that's a ground issue. If it screams, that's you.'"
 "Landlord Office"	"555-0119"	"[paragraph break]Ring. Ring. Ring. A machine: 'Mailbox full.' Huh."
 "Operator"	"0"	"[paragraph break]A crisp voice: 'Operator. What city and number please?' You panic and hang up politely."
+"Dr. Levy"	"555-0183"	"[paragraph break]Voicemail after two rings: 'You've reached Dr. Miriam Levy. If this is a crisis, hang up and call 988. Otherwise, leave your name and number. I return calls within one business day.' You hover a second, then hang up."
+"Therapist"	"555-0183"	"[paragraph break]Voicemail after two rings: 'You've reached Dr. Miriam Levy...' You don't leave a message."
+"Police"	"911"	"You shouldn't call unless it's an emergency."
+"Dr. Levy Emergency Line"	"988"	"You really shouldn't call unless it's an emergency."
+
 
 Carry out dialing:
 	let raw be the substituted form of "[the topic understood]";
@@ -508,60 +710,6 @@ Carry out dialing:
 	if matched is false:
 		say "Dial tone, then a recorded pause. Either wrong number or the city is feeling shy tonight.".
 
-[ Incoming call / dialog pushing Tall's invite ]
-In-call is a truth state that varies. In-call is false.
-Call-stage is a number that varies.
-Invited-to-Talls is a truth state that varies. Invited-to-Talls is false.
-
-To begin the call:
-	now in-call is true;
-	now call-stage is 1;
-	say "'It's Rena.' Not a question. The voice carries last night's cigarettes and this morning's coffee. 'Tall's. Late jam. You're coming.'";
-	say "[paragraph break][bold type]1[roman type]) 'Am I? Tell me why.'[line break][bold type]2[roman type]) 'Tonight? I'm destroyed.'[line break][bold type]3[roman type]) 'Rena who?'";
-	say "[paragraph break][bracket]Type 1, 2, or 3. HANG UP to end the call.[close bracket]".
-
-Choosing is an action applying to one number.
-Understand "[number]" as choosing when in-call is true.
-
-Carry out choosing:
-	if call-stage is 1:
-		if the number understood is 1:
-			say "'Because the rhythm section isn't garbage for once. Kenji's on bass—the guy who did that Tonic residency, actual time. Piano player came up under someone who matters. Drums are solid. Sign-up's at one but the real players show by midnight.' Pause. 'Be one of them.'";
-			say "[paragraph break][bold type]1[roman type]) 'What's your angle here?'[line break][bold type]2[roman type]) 'I'm not going.'[line break][bold type]3[roman type]) 'Is this an open thing or do I need an in?'";
-			now call-stage is 2;
-		otherwise if the number understood is 2:
-			say "'Good. Exhausted reads honest.' A lighter flicks on her end. 'One tune. Make it not embarrassing. Three people in that room book gigs. That's it. That's the math.'";
-			say "[paragraph break][bold type]1[roman type]) 'One tune gets me what, exactly?'[line break][bold type]2[roman type]) 'Not interested.'[line break][bold type]3[roman type]) 'Walking into a jam cold sounds like a bad idea.'";
-			now call-stage is 2;
-		otherwise if the number understood is 3:
-			say "'Rena. I drove you back from that warehouse thing in Red Hook. You fell asleep holding your horn case.' Dry laugh. 'Anyway. Tall's tonight. Jam. I told Kenji you don't suck. Don't make me a liar.'";
-			say "[paragraph break][bold type]1[roman type]) 'Why'd you tell him that?'[line break][bold type]2[roman type]) 'Maybe. Probably not.'[line break][bold type]3[roman type]) 'I don't know their repertoire.'";
-			now call-stage is 2;
-		otherwise:
-			say "Pick 1, 2, or 3.";
-	otherwise if call-stage is 2:
-		if the number understood is 1:
-			say "'Because you don't sound like you're quoting anyone yet. That window closes.' Traffic noise, a siren. 'Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune in Bb, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently.' Beat. 'Ludlow. Red door. Downstairs.'";
-		otherwise if the number understood is 2:
-			say "'Yeah you are. Play tired. Chet Baker made a career out of it.' Her voice gets an edge. 'Three minutes. In and out. Tall's cares if you improved the last eight bars, not if you're chipper about it.' Not asking anymore. 'Red door. Ludlow. Basement. Tonight.'";
-		otherwise if the number understood is 3:
-			say "'It's a session, not a dissertation defense. Bring a head in Bb. 'Confirmation' if you want respect, 'Autumn Leaves' if you want to actually play. State the melody, don't rush, let the bass walk. The form does the work.' A short laugh. 'Tall's. Ludlow. Red basement door. Tonight.' She already assumes you're showing.";
-		otherwise:
-			say "Pick 1, 2, or 3.";
-			stop the action;
-		now invited-to-talls is true;
-		now in-call is false;
-		now call-stage is 0;
-		say "[paragraph break]You start to ask which block on Ludlow, is there a sign, what time exactly—click. Line goes dead. She figured you'd either know or figure it out.";
-	otherwise:
-		say "The call's already done."
-
-Before doing something when in-call is true:
-	if the current action is choosing or the current action is asking for help or the current action is hanging up:
-		continue the action;
-	otherwise:
-		say "You're on the phone. Choose [bold type]1–3[roman type], or type [bold type]HANG UP[roman type].";
-		stop the action.
 
 [==================== SUBWAY PICKER ====================]
 
