@@ -24,7 +24,7 @@ placeholder [IFID] = "D706AF0C-3135-4A11-8375-C6A27545D6AC"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
 placeholder [TITLE] = "Giant Steps: Chapter 1: Autumn in New York"
-placeholder [AUTHOR] = "You"
+placeholder [AUTHOR] = "Sebastian Blue Hochman"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

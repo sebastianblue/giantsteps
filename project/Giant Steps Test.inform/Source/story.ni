@@ -1,4 +1,4 @@
-"Giant Steps: Chapter 1: Autumn in New York" by You
+"Giant Steps: Chapter 1: Autumn in New York" by Sebastian Blue Hochman
 
 [==================== BASICS & UI ====================]
 
@@ -76,7 +76,7 @@ When play begins:
 		"[italic type][line break]Expecting.",
 		"[italic type][line break]Heartbeat.",
 		"[italic type][bold type][line break]Downbeat!",
-		"[italic type][bold type][paragraph break]________________[line break]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break]type 'help' for help.",
+		"[italic type][bold type][paragraph break]________________[line break]Giant Steps[roman type][paragraph break]chapter 1: Autumn in New York[paragraph break]a prototype of a game by sebastian blue[paragraph break][bracket]Press any key.[close bracket]",
 		"[italic type][paragraph break]It's been almost four months since I graduated. Go, class of 2002! Just kidding. God, what did I think was going to happen when I moved to New York?[paragraph break]'Oh, hello, Desmond, it's me, Mr. Tall! Come have a residency at my jazz club because you're so cool! And I'll pay off your $40,000 jazz-school debt!'",
 		"[italic type][paragraph break]Stupid. That's stupid. And I'm talking to myself again.",
 		"[paragraph break]It took a long time to move here. Dad helped. He always helps in a way that leaves a little extra for me to carry after.[paragraph break][roman type]You put a record on your tiny Audio Technica turntable in the corner of your place. Jazz floods the room."
@@ -136,9 +136,9 @@ After reading a command when Prologue-on is true:
 
 [==================== THE APARTMENT ====================]
 
-The Studio is a room. "[roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. [paragraph break]Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—and the apartment door to the west."
+The Studio is a room. "[roman type]You look around your tiny studio apartment, tucked into a corner of 178th street. [italic type]'Uptown Manhattan,'[roman type] as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. [paragraph break]Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there—and the apartment door to the west.[paragraph break]type 'help' for help."
 
-[==================== WEST DOOR + HALLWAY (fixed grammar) ====================]
+[==================== WEST DOOR + HALLWAY (revised, paste-in) ====================]
 
 The Hallway is a room. "Dim, echoey. Stairs down to the street, smell of dust and last night's takeout."
 
@@ -149,6 +149,9 @@ Understand "front door/door/out" as the apartment door.
 [ Don’t even open the door if you’ve got nowhere to go ]
 Instead of opening the apartment door when invited-to-talls is false:
 	say "You put a hand on the knob and stop. [italic type]You shouldn't leave if you have nowhere to go.[roman type]";
+
+[ ---- Make 'leave' NOT mean the built-in EXITING ---- ]
+Understand the command "leave" as something new.
 
 [ ---- Flexible 'leave' language routes to WEST (no bracketed tokens) ---- ]
 Leaving is an action applying to nothing.
@@ -171,7 +174,7 @@ Understand "go to door" or "go to the door" or "approach door" or "approach the 
 Carry out going-to-door:
 	try going west.
 
-[ ---- DOWN handling ---- ]
+[ ---- DOWN vocabulary ---- ]
 Understand "downstairs" as down.
 Understand "go downstairs" or "head downstairs" as going.
 
@@ -186,14 +189,21 @@ Check going west from the Studio:
 	if the player does not carry the saxophone:
 		say "Forgetting something?" instead;
 
-[ From the Hallway, DOWN launches the subway picker (same gates) ]
-Instead of going down from the Hallway:
+[ From the Hallway, DOWN launches the subway picker (same gates).
+  Use a BEFORE rule so it fires even without a mapped DOWN exit. ]
+Before going down when the location is the Hallway:
 	if invited-to-talls is false:
 		say "[italic type]You shouldn't leave if you have nowhere to go.[roman type] Maybe figure out your night first, bro." instead;
 	if the player does not carry the saxophone:
 		say "Forgetting something?" instead;
 	begin subway-choose;
 	stop the action.
+
+[ Optional: 'street' phrasing in the Hallway ]
+Going-to-street is an action applying to nothing.
+Understand "go to street" or "go to the street" or "head to street" or "head to the street" as going-to-street.
+Carry out going-to-street:
+	try going down.
 
 
 [==================== RECORD PLAYER + RECORDS (Backyard is playing) ====================]
@@ -516,8 +526,6 @@ Carry out flipping-prev:
 [ Assumes: Include Basic Screen Effects by Emily Short is already included near the top. ]
 [ Also assumes you already have your normalized(text) phrase elsewhere. ]
 
-"Phone & Call System"
-
 [--- Objects ---]
 The wall phone is scenery in the Studio.
 Understand "phone/telephone/receiver" as the wall phone.
@@ -553,7 +561,18 @@ Carry out approaching-phone:
 		say "You step up to the wall phone.".
 
 Instead of entering the wall phone: try approaching-phone.
-Instead of taking the wall phone: say "Bolted into the past and the drywall.";
+Instead of taking the wall phone: say "Bolted into the past and the drywall.".
+
+[ Leave the nook implicitly when moving; only print the message for explicit GET OFF ]
+Before going when the player is on the phone nook:
+	silently try getting off the phone nook;
+	continue the action.
+
+Report getting off the phone nook when the action is not silent:
+	say "You step back from the wall phone.".
+
+[ Make ANSWER very likely while ringing ]
+Does the player mean answering-call when phone-ringing is true: it is very likely.
 
 [==================== CALL FLOW ====================]
 
@@ -712,7 +731,6 @@ name (text)	number (text)	response (text)
 "Police"	"911"	"You shouldn't call unless it's an emergency."
 "Dr. Levy Emergency Line"	"988"	"You really shouldn't call unless it's an emergency."
 
-
 Carry out dialing:
 	let raw be the substituted form of "[the topic understood]";
 	let dialed be normalized raw;
@@ -802,10 +820,132 @@ To end-subway-choose (made-it - a truth state):
 	otherwise:
 		say "You arrive to the station. It smells like rats. You hate rats. Also you have no idea where you are. Did you really think you could raw-dog the New York subway system? [line break] [italic type]Where the[roman type] fuck [italic type]am I?[roman type] Maybe actually figure out where Tall's is first, bro.";
 
-Delancey Street is a room. "Lower East Side: neon bleed, late traffic, bass from a basement somewhere. A red door marked [italic type]Tall's[roman type] crouches under a short run of stairs. (And yeah—the address matches the magazine: 184 Ludlow.)"
+[==================== SUBWAY MOMENTS ====================]
+
+Subway-scene-active is a truth state that varies.
+Subway-conversation-stage is a number that varies.
+
+To play subway-ride (correct - a truth state):
+	if correct is true:
+		now the player is in Subway Train Correct;
+		now subway-scene-active is true;
+		now subway-conversation-stage is 1;
+		say "The downtown F train rattles through the tunnel, a metallic heartbeat under the city. The car is half-empty—a few late-shift workers, a couple making out by the doors, and an old man with a weathered face and kind eyes sitting across from you. He nods at your sax case.";
+		say "[paragraph break]'That a sax?' he asks, his voice gravelly like he's smoked a thousand cigarettes and drunk a thousand cups of coffee.";
+		say "[paragraph break][bold type]1[roman type]) 'Yeah, tenor.'[line break][bold type]2[roman type]) 'Just heading to a jam.'[line break][bold type]3[roman type]) Nod silently";
+	else:
+		now the player is in Subway Train Wrong;
+		say "You get on the train, but something feels off. The stations blur together—Spring Street, Canal, Brooklyn Bridge. You realize you're going the wrong way. The train empties out until it's just you and the screeching wheels. You get off at some unfamiliar stop, completely lost.[paragraph break]You have to head back uptown and try again.";
+		now the player is in the Hallway;
+
+The Subway Train Correct is a room. "The F train rumbling downtown. The old man watches you with patient curiosity."
+The Subway Train Wrong is a room. "Wrong train, wrong direction. You're completely lost."
+
+[ Subway conversation handler ]
+Subway-choosing-conversation is an action applying to one number.
+Understand "[number]" as subway-choosing-conversation when subway-scene-active is true.
+
+Instead of subway-choosing-conversation:
+	if subway-conversation-stage is 1:
+		if the number understood is 1:
+			say "'Tenor,' he repeats, like he's tasting the word. 'My son played tenor. What kind you got there?'";
+			say "[paragraph break][bold type]1[roman type]) 'Selmer Mark VI.'[line break][bold type]2[roman type]) 'Just a student model.'[line break][bold type]3[roman type]) 'Why?'";
+			now subway-conversation-stage is 2;
+		else if the number understood is 2:
+			say "'A jam,' he says, smiling. 'Tall's? I used to play there back in the day. Place hasn't changed.' He eyes your case. 'What kind of horn you bringing?'";
+			say "[paragraph break][bold type]1[roman type]) 'Selmer Mark VI.'[line break][bold type]2[roman type]) 'Nothing special.'[line break][bold type]3[roman type]) 'You know Tall's?'";
+			now subway-conversation-stage is 2;
+		else if the number understood is 3:
+			say "You nod. He nods back. After a moment, he says, 'My son had a Selmer. Beautiful tone, those old Mark VIs. You play one?'";
+			say "[paragraph break][bold type]1[roman type]) 'Yeah, it was my dad's.'[line break][bold type]2[roman type]) 'How'd you know?'[line break][bold type]3[roman type]) Stay silent";
+			now subway-conversation-stage is 2;
+		else:
+			say "Pick 1, 2, or 3.";
+	else if subway-conversation-stage is 2:
+		if the number understood is 1:
+			say "'Selmer,' he says, his eyes getting distant. 'My boy had one just like it. Said it was the only horn that ever felt like home.' He looks out the window at the dark tunnel. 'He passed last year. Cancer.' The train rattles on. 'Play something beautiful tonight, kid. For him.'";
+			complete-subway-ride;
+		else if the number understood is 2:
+			say "He smiles sadly. 'They're all special when they're yours. My son's horn was just a Yamaha at first, but he made it sing.' He looks at your hands. 'You got good hands. Strong. You'll do fine.'";
+			complete-subway-ride;
+		else if the number understood is 3:
+			say "'I know the look,' he says. 'The weight of it. My son used to get that same look before gigs.' He pats your knee. 'The horn chooses you, not the other way around. Whatever you're carrying, let it come out in the music.'";
+			complete-subway-ride;
+		else:
+			say "Pick 1, 2, or 3.".
+
+To complete-subway-ride:
+	now subway-scene-active is false;
+	say "[paragraph break]The train slows into Delancey Street. 'This is you,' he says. As you stand to leave, he adds, 'Remember—it's just music. The notes will be there tomorrow, no matter what happens tonight.'";
+	now the player is in Delancey Street.
+
+Before doing something when subway-scene-active is true:
+	if the current action is subway-choosing-conversation or the current action is asking for help:
+		continue the action;
+	else:
+		say "The old man is waiting for your response. (Type 1, 2, or 3.)";
+		stop the action.
+
+[ Update the subway picker to use the new scene ]
+To end-subway-choose (made-it - a truth state):
+	now Subway-choosing is false;
+	now the command prompt is "> ";
+	if made-it is true:
+		play subway-ride(true);
+	otherwise:
+		play subway-ride(false).
+
+[==================== TALL'S ENTRANCE ====================]
+
+Delancey Street is a room. "Lower East Side: neon bleed, late traffic, bass thumping from a basement somewhere. A [bold type]red door[roman type] marked [italic type]Tall's[roman type] crouches under a short run of stairs. (And yeah—the address matches the magazine: 184 Ludlow.) The sound of a piano trio filters through the door—someone playing 'Autumn Leaves' with more feeling than you thought possible tonight."
+
+The red door is scenery and a door in Delancey Street. 
+The red door is east of Delancey Street and west of Tall's Back Room.
+The red door is closed and unlocked.
+Understand "door/entrance/talls/tall's" as the red door.
+
+Tall's Back Room is a room. "END OF CHAPTER 1".
+
+Chapter-end-active is a truth state that varies.
+
+Instead of entering the red door:
+	if chapter-end-active is false:
+		now chapter-end-active is true;
+		say "Your hand finds the cold brass knob. Through the wood, you can feel the vibration of the bass, the shimmer of the ride cymbal. Your heart is pounding so hard you're sure everyone on the street can hear it.[paragraph break]";
+		say "This is it. You could still turn around. Take the train back uptown. Watch TV. Pretend this never happened.[paragraph break]";
+		say "But then you think of the old man on the train. Your dad's horn in its case. The empty pill bottle on your counter. The professor's letter. All the reasons to run, and the one reason to stay.[paragraph break]";
+		say "You take a deep breath.[paragraph break]";
+		say "[bold type]Do you go in?[roman type] (Type YES or NO.)";
+	else:
+		say "You need to decide: YES or NO?".
+
+Final-decision is an action applying to one topic.
+Understand "yes" or "no" as final-decision when chapter-end-active is true.
+
+Instead of final-decision:
+	if the topic understood is "yes":
+		say "[paragraph break]You turn the knob and push.[paragraph break]";
+		say "The door gives way to darkness, cigarette smoke, and the sound of a room holding its breath. The piano player looks up, nods. The bassist makes space in the time.[paragraph break]";
+		say "You step inside.[paragraph break]";
+		say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
+		end the story finally;
+	else if the topic understood is "no":
+		say "[paragraph break]You let go of the knob. Your hand is shaking.[paragraph break]";
+		say "You turn away from the door, from the music, from whatever might have been. The city swallows you whole as you walk back toward the subway, the sound of your own footsteps the only rhythm you'll hear tonight.[paragraph break]";
+		say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
+		end the story finally;
+	else:
+		say "Type YES or NO.".
+
+Before doing something when chapter-end-active is true:
+	if the current action is final-decision or the current action is asking for help:
+		continue the action;
+	else:
+		say "You're at the threshold. Type YES to enter or NO to walk away.";
+		stop the action.
 
 [==================== QUALITY OF LIFE ====================]
-After getting off the phone nook:
+Report getting off the phone nook:
 	say "You step back from the wall phone." instead.
 
 [ Map taped to the apartment door ]
