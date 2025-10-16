@@ -4962,6 +4962,7 @@ Well, I suppose I'd better figure out how to get there.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1398"></child>
+            <child nodeId="node-1543"></child>
             <child nodeId="node-1389"></child>
         </children>
     </item>
@@ -5045,6 +5046,330 @@ You can see a door, a couch, a saxophone, a guitar, a some bills and mail (close
     <item nodeId="node-1397">
         <command xml:space="preserve">look cushions</command>
         <result xml:space="preserve">Dude. I told you not to look between the cushions. There's nothing here. Surprise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1543">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">How to play (quick)
+
+Try short, simple commands.
+• LOOK (or L) - refresh the room view
+• EXAMINE (or X) things - e.g., X MAGAZINE, X PAGES
+• OPEN/CLOSE/TAKE/READ
+• PLAY (INSTRUMENT)
+• NEXT / PREVIOUS (PAGE)- flip pages
+• DIAL (PHONE NUMBER) (from the wall phone)
+• ANSWER PHONE when it rings
+• N/W/E/S - go in a direction (only if you have somewhere to go)
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1544"></child>
+        </children>
+    </item>
+    <item nodeId="node-1544">
+        <command xml:space="preserve">X POSTERS</command>
+        <result xml:space="preserve">There's a poster of Charlie Parker. Isn't that nice? You've also got one of Sun Ra. Who do you think you are, bro? It's actually kind of cool. I bet girls will really love that one when they come over-not.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1545"></child>
+        </children>
+    </item>
+    <item nodeId="node-1545">
+        <command xml:space="preserve">OPEN BIOLLS</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1546"></child>
+        </children>
+    </item>
+    <item nodeId="node-1546">
+        <command xml:space="preserve">OPEN BILLS</command>
+        <result xml:space="preserve">You peel the rubber band and spread things out: a friendly envelope, a landlord envelope, a ConEd envelope, and a stiff university envelope.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1547"></child>
+        </children>
+    </item>
+    <item nodeId="node-1547">
+        <command xml:space="preserve">OPEN CONED</command>
+        <result xml:space="preserve">You open the coned envelope, revealing an electric bill.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1548"></child>
+        </children>
+    </item>
+    <item nodeId="node-1548">
+        <command xml:space="preserve">OPEN LANDLORD</command>
+        <result xml:space="preserve">You open the landlord envelope, revealing a rent notice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1549"></child>
+        </children>
+    </item>
+    <item nodeId="node-1549">
+        <command xml:space="preserve">OPEN UNIVERSITY</command>
+        <result xml:space="preserve">You open the professor envelope, revealing a professor letter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1550"></child>
+        </children>
+    </item>
+    <item nodeId="node-1550">
+        <command xml:space="preserve">X LETTER</command>
+        <result xml:space="preserve">Dear Desmond,
+
+Congratulations on your graduation. I suppose four years is better than five, though I must admit I expected more consistent dedication from someone with your raw talent.
+
+Your senior recital was... adequate. That flubbed entrance in "Epistrophe" still haunts me (Monk's rolling around in his grave), if I'm being honest. You had the technique but never the discipline to play the changes correctly. Always rushing, always pushing ahead of the beat like you were trying to escape something.
+
+Nevertheless, you've earned your degree. I hope New York treats you well. Do try to apply yourself more diligently than you did in your counterpoint studies.
+
+Sincerely,
+Professor Albright
+
+&gt; What an asshole. Thank god that period of my life is over. Why would a professor vibe me like that, every day, in and out.
+
+&gt; Jazz Dictionary:
+&gt; Entry 283
+
+&gt; Vibe (v), not to be confused with vibe (n)
+
+       To give someone bad vibes; to subtly undermine or disrespect a fellow musician through passive-aggressive behavior, audible sighs, whispered comments, or playing "correct" changes over someone's intentional substitutions. The jazz equivalent of throwing shade.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1551"></child>
+        </children>
+    </item>
+    <item nodeId="node-1551">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">(the window)
+Streetlights smear across the glass; the city hums behind it. Why the hell did you come here in the first place. The sunset is nice, though-it reminds you of home. A disposable camera is sunbathing on the sill like it's going to take pictures of itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1552"></child>
+        </children>
+    </item>
+    <item nodeId="node-1552">
+        <command xml:space="preserve">play camera</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1553"></child>
+        </children>
+    </item>
+    <item nodeId="node-1553">
+        <command xml:space="preserve">open camera</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1554"></child>
+        </children>
+    </item>
+    <item nodeId="node-1554">
+        <command xml:space="preserve">x camera</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1555"></child>
+        </children>
+    </item>
+    <item nodeId="node-1555">
+        <command xml:space="preserve">x streetlights</command>
+        <result xml:space="preserve">A low, constant hush: buses sighing, a scooter whining three octaves too high, someone laughing like midnight owes them money. On the corner, a Village Voice box losing a fight with gravity. Also a guy yelling at the library. Like, at the outside of the library. Who knows?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1556"></child>
+        </children>
+    </item>
+    <item nodeId="node-1556">
+        <command xml:space="preserve">l guy</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1557"></child>
+        </children>
+    </item>
+    <item nodeId="node-1557">
+        <command xml:space="preserve">l library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1558"></child>
+        </children>
+    </item>
+    <item nodeId="node-1558">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Studio
+You look around your tiny studio apartment, tucked into a corner of 178th street. "Uptown Manhattan," as someone once described it. There's a magazine on the counter, and some bills and mail pile up slowly, your pills sit on the table next to the mail. 
+
+Posters hang on the walls. Your friend's LP is playing on an old turntable in the corner. It's insane you haven't cleaned this place once since you've moved here. A couch is pushed up against a big window, a grimy, scuffed rug underfoot, instruments everywhere, a kitchen nook just over there-and the apartment door to the west.
+
+type "help" for help.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1559"></child>
+        </children>
+    </item>
+    <item nodeId="node-1559">
+        <command xml:space="preserve">l instruments</command>
+        <result xml:space="preserve">Which do you mean, the saxophone, the guitar or the instruments?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1560"></child>
+        </children>
+    </item>
+    <item nodeId="node-1560">
+        <command xml:space="preserve">play guitar</command>
+        <result xml:space="preserve">A gentle pattern, thumb and nail. The room exhales.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1561"></child>
+        </children>
+    </item>
+    <item nodeId="node-1561">
+        <command xml:space="preserve">play instruments</command>
+        <result xml:space="preserve">Which do you mean, the saxophone, the guitar or the instruments?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1562"></child>
+        </children>
+    </item>
+    <item nodeId="node-1562">
+        <command xml:space="preserve">play others</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1563"></child>
+        </children>
+    </item>
+    <item nodeId="node-1563">
+        <command xml:space="preserve">play containers</command>
+        <result xml:space="preserve">Which do you mean, the milk crate, the orange pill bottle, the cabinet, the fridge, the some bills and mail, the professor envelope, the friendly envelope, the landlord envelope or the coned envelope?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1564"></child>
+        </children>
+    </item>
+    <item nodeId="node-1564">
+        <command xml:space="preserve">x pill bottle</command>
+        <result xml:space="preserve">Orange pharmacy bottle, white childproof cap, your name half-scratched off. You shake it: no rattle. Empty since last week. A card for your therapist sits nearby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1565"></child>
+        </children>
+    </item>
+    <item nodeId="node-1565">
+        <command xml:space="preserve"> dial therapist</command>
+        <result xml:space="preserve">You reach for where a cell *would* be. The wall phone's across the room-try GO TO PHONE first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1566"></child>
+        </children>
+    </item>
+    <item nodeId="node-1566">
+        <command xml:space="preserve">go to phone</command>
+        <result xml:space="preserve">You step up to the wall phone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1567"></child>
+        </children>
+    </item>
+    <item nodeId="node-1567">
+        <command xml:space="preserve">dial therapist</command>
+        <result xml:space="preserve">You tap the keypad: dr. levy.
+Dial tone, then a recorded pause. Either wrong number or the city is feeling shy tonight.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1568"></child>
+        </children>
+    </item>
+    <item nodeId="node-1568">
+        <command xml:space="preserve">l milk crate</command>
+        <result xml:space="preserve">A black plastic crate stuffed with sleeves: classics, thrift finds, and a few you definitely "borrowed" from friends.
+
+In the milk crate are a "Kind of Blue" LP, a "Blue Train" LP, a "Soul Station" LP, a "A Love Supreme" LP and a "Mingus Ah Um" LP.
+
+*BRRRRING* The wall phone bursts to life. (ANSWER PHONE to pick up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1569"></child>
+        </children>
+    </item>
+    <item nodeId="node-1569">
+        <command xml:space="preserve">answer phone</command>
+        <result xml:space="preserve">"It's Rena." Not a question. The voice carries last night's cigarettes and this morning's coffee. You can hear the faint hiss of street traffic behind her words. "Tall's. Late jam. You're coming." There's a pause filled with the sound of a lighter flicking, then an exhale.
+
+
+1) "Am I? Tell me why."
+2) "Tonight? I'm destroyed."
+3) "Rena who?"
+
+
+[Type 1, 2, or 3.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1570"></child>
+        </children>
+    </item>
+    <item nodeId="node-1570">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Late set. House trio is killing, horns rotate in, everyone listens. You need to be seen." She takes another drag. "Kenji's on bass tonight. You remember Kenji - he was at that warehouse thing in Red Hook. Said you had decent time but your altissimo sounds like a dying cat."
+
+
+1) "What's your angle here?"
+2) "I'm not going."
+3) "Is this an open thing or do I need an in?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1571"></child>
+        </children>
+    </item>
+    <item nodeId="node-1571">
+        <command xml:space="preserve">1</command>
+        <result xml:space="preserve">"Because you have that freshly-graduated, "I'm unique" sound. That window closes in about six months." Traffic noise swells then fades. "Room's small, ceiling's low, everyone's had two drinks minimum. You call a tune, play the form, don't overplay the bridge. If you listen, they remember. If you showboat, they remember differently." Beat. "Marcus will be there. He books the Tuesday residency at Zinc." Another beat. "You know what a residency pays? It pays your ConEd bill, that's what."
+
+
+1) "What if I choke?"
+2) "What time?"
+3) "Who else is playing?"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1572"></child>
+        </children>
+    </item>
+    <item nodeId="node-1572">
+        <command xml:space="preserve">2</command>
+        <result xml:space="preserve">
+
+Well, I suppose I'd better figure out how to get there.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
