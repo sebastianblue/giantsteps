@@ -908,41 +908,53 @@ Tall's Back Room is a room. "END OF CHAPTER 1".
 
 Chapter-end-active is a truth state that varies.
 
+[==================== CHAPTER-END DECISION (robust YES/NO) ====================]
+
+[ Two explicit out-of-world actions with lots of synonyms ]
+Decide-entering is an action out of world applying to nothing.
+Understand "yes" or "y" or "in" or "enter" or "go in" or "go inside" as decide-entering when chapter-end-active is true.
+
+Decide-leaving is an action out of world applying to nothing.
+Understand "no" or "n" or "out" or "leave" or "go out" or "walk away" as decide-leaving when chapter-end-active is true.
+
+Carry out decide-entering:
+	say "[paragraph break]You turn the knob and push.[paragraph break][bracket]press any key[close bracket]";
+	wait for any key;
+	say "The door gives way to darkness, cigarette smoke, and the sound of a room holding its breath. The piano player looks up, nods. The bassist makes space in the time.[paragraph break]";
+	wait for any key;
+	say "You step inside.[paragraph break]";
+	wait for any key;
+	say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
+	end the story finally.
+
+Carry out decide-leaving:
+	say "[paragraph break]You let go of the knob. Your hand is shaking.[paragraph break][bracket]press any key[close bracket]";
+	wait for any key;
+	say "You turn away from the door, from the music, from whatever might have been. The city swallows you whole as you walk back toward the subway, the sound of your own footsteps the only rhythm you'll hear tonight.[paragraph break]";
+	wait for any key;
+ 	say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
+	end the story finally.
+
+[ While the choice is up, only allow the decision verbs or HELP; block everything else ]
+Before doing something when chapter-end-active is true:
+	if the current action is decide-entering or the current action is decide-leaving or the current action is asking for help:
+		continue the action;
+	otherwise:
+		say "You're at the threshold. Type [bold type]YES[roman type] to enter or [bold type]NO[roman type] to walk away.";
+		stop the action.
+
+[ Tweak the prompt copy so it matches the accepted inputs ]
 Instead of entering the red door:
 	if chapter-end-active is false:
 		now chapter-end-active is true;
-		say "Your hand finds the cold brass knob. Through the wood, you can feel the vibration of the bass, the shimmer of the ride cymbal. Your heart is pounding so hard you're sure everyone on the street can hear it.[paragraph break]";
+		say "Your hand finds the cold brass knob. Through the wood, you can feel the vibration of the bass, the shimmer of the ride cymbal. Your heart is pounding so hard you're sure everyone on the street can hear it.[paragraph break]";		
 		say "This is it. You could still turn around. Take the train back uptown. Watch TV. Pretend this never happened.[paragraph break]";
-		say "But then you think of the old man on the train. Your dad's horn in its case. The empty pill bottle on your counter. The professor's letter. All the reasons to run, and the one reason to stay.[paragraph break]";
+		say "But then you think of the old man on the train. Your dad's horn in its case. The empty pill bottle on your counter. The professor's letter. All the reasons to run, and the one reason to stay.[paragraph break]";		
 		say "You take a deep breath.[paragraph break]";
-		say "[bold type]Do you go in?[roman type] (Type YES or NO.)";
+		say "[bold type]Do you go in?[roman type] (Type [bold type]YES[roman type] or [bold type]NO[roman type].)";
 	else:
-		say "You need to decide: YES or NO?".
+		say "Decide: [bold type]YES[roman type] or [bold type]NO[roman type]."
 
-Final-decision is an action applying to one topic.
-Understand "yes" or "no" as final-decision when chapter-end-active is true.
-
-Instead of final-decision:
-	if the topic understood is "yes":
-		say "[paragraph break]You turn the knob and push.[paragraph break]";
-		say "The door gives way to darkness, cigarette smoke, and the sound of a room holding its breath. The piano player looks up, nods. The bassist makes space in the time.[paragraph break]";
-		say "You step inside.[paragraph break]";
-		say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
-		end the story finally;
-	else if the topic understood is "no":
-		say "[paragraph break]You let go of the knob. Your hand is shaking.[paragraph break]";
-		say "You turn away from the door, from the music, from whatever might have been. The city swallows you whole as you walk back toward the subway, the sound of your own footsteps the only rhythm you'll hear tonight.[paragraph break]";
-		say "[bold type]CHAPTER 1 END[roman type][paragraph break]";
-		end the story finally;
-	else:
-		say "Type YES or NO.".
-
-Before doing something when chapter-end-active is true:
-	if the current action is final-decision or the current action is asking for help:
-		continue the action;
-	else:
-		say "You're at the threshold. Type YES to enter or NO to walk away.";
-		stop the action.
 
 [==================== QUALITY OF LIFE ====================]
 Report getting off the phone nook:
